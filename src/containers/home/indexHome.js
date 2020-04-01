@@ -3,8 +3,14 @@ import './indexHome.css'
 
 const Home = props => (
   <div id="homePageContainer">
-    <h1>Home Page</h1>
-    <p>Here's more information about this website and what you can do with it.</p>
+    <div id="homeLeftSideBar"></div>
+    <div id="homeContent">
+      <div id="homeHeader">
+        <h1>Home Page</h1>
+      </div>
+      <p>Here's more information about this website and what you can do with it.</p>
+    </div>
+    <div id="homeRightSideBar"></div>
   </div>
 )
 

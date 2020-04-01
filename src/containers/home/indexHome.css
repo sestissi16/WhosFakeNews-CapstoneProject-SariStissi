@@ -1,0 +1,16 @@
+#homePageContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#homeContent {
+    flex-grow: 4;
+    height: 100%;
+}
+
+#homeLeftSideBar, #homeRightSideBar {
+    flex-grow: 1;
+    background-color: rgb(216, 25, 67);
+    height: 100%;
+}
