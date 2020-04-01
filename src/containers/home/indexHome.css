@@ -9,8 +9,29 @@
     height: 100%;
 }
 
-#homeLeftSideBar, #homeRightSideBar {
+#homeLeftSideBar {
     flex-grow: 1;
     background-color: rgb(216, 25, 67);
     height: 100%;
+}
+#homeRightSideBar {
+    flex-grow: 1;
+    background-color: rgb(216, 25, 67);
+    height: 100%;
+}
+
+@media (max-width:544px){
+    #homeLeftSideBar, #homeRightSideBar {
+        display: none;
+    }
+}
+
+@media (max-width:749px){
+    #homeRightSideBar {
+        display: none;
+    }
+
+    #homeLeftSideBar {
+        flex-grow: 2.3;
+    }
 }
