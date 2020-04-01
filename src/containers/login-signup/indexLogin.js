@@ -8,7 +8,9 @@ const LoginSignUp = () => (
             <div id="loginHeader">
                 <h1>Login or Sign Up</h1>
             </div>
-            <p>This is where you can login to save the results of the fake news testing.</p>
+            <div id="loginBody">
+                <p>This is where you can login to save the results of the fake news testing.</p>
+            </div>
         </div>
         <div id="loginRightSideBar"></div>
     </div>

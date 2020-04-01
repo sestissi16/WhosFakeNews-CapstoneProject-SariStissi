@@ -8,10 +8,12 @@ const NewsAlerts = () => (
             <div id="newsAlertsHeader">
                 <h1>News Alerts Page</h1>
             </div>
-            <p>
-                This is where you can set up news alerts and 
-                have it checked throught the automatic fake news detector
-            </p>
+            <div id="newsAlertsBody">
+                <p>
+                    This is where you can set up news alerts and 
+                    have it checked throught the automatic fake news detector
+                </p>
+            </div>
         </div>
         <div id="newsAlertsRightSideBar"></div>
     </div>

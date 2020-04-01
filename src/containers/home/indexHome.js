@@ -8,7 +8,9 @@ const Home = props => (
       <div id="homeHeader">
         <h1>Home Page</h1>
       </div>
-      <p>Here's more information about this website and what you can do with it.</p>
+      <div id="homeBody">
+        <p>Here's more information about this website and what you can do with it.</p>
+      </div>
     </div>
     <div id="homeRightSideBar"></div>
   </div>
