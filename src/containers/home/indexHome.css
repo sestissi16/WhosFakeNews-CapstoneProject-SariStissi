@@ -5,12 +5,12 @@
 }
 
 #homeContent {
-    flex-grow: 4;
     height: 100%;
+    flex-grow: 1;
 }
 
 #homeLeftSideBar, #homeRightSideBar {
-    flex-grow: 1;
+    width: 8%;
     background-color: rgb(216, 25, 67);
     height: 100%;
 }
@@ -27,7 +27,7 @@
     }
 
     #homeLeftSideBar {
-        flex-grow: 1.2;
+        width: 7%;
     }
 }
 
@@ -37,6 +37,6 @@
     }
 
     #homeLeftSideBar {
-        flex-grow: 1.5;
+        width: 4.5%;
     }
 }

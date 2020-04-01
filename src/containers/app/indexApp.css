@@ -4,3 +4,8 @@
     display: flex;
     flex-direction: column;
 }
+
+p, h1 {
+    width: 60%;
+    margin: 0px;
+}

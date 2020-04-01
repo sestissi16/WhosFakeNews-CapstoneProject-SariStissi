@@ -5,12 +5,12 @@
 }
 
 #uploadContent {
-    flex-grow: 4;
     height: 100%;
+    flex-grow: 1;
 }
 
 #uploadLeftSideBar, #uploadRightSideBar {
-    flex-grow: 1;
+    width: 8%;
     background-color: rgb(237, 240, 69);
     height: 100%;
 }
@@ -27,7 +27,7 @@
     }
 
     #uploadLeftSideBar {
-        flex-grow: 1.2;
+        width: 7%;
     }
 }
 
@@ -37,6 +37,6 @@
     }
 
     #uploadLeftSideBar {
-        flex-grow: 1.5;
+        width: 4.5%;
     }
 }
