@@ -27,7 +27,7 @@ const App = () => (
           </NavDropdown>
         </Nav>
 
-        <Button href="/Login" variant="primary" className="float-right">Login or Sign up</Button>
+        <Button href="/Login" variant="danger" className="float-right">Login or Sign up</Button>
       </Navbar.Collapse>
     </Navbar>
 
