@@ -8,7 +8,7 @@ import './indexApp.css'
 const App = () => (
   <div id="containerApp">
     <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand href="/">Who's Fake News?</Navbar.Brand>
     <Nav variatn="pills" className="mr-auto">
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/features">Features</Nav.Link>
