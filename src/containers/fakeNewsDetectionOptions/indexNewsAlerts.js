@@ -1,10 +1,20 @@
 import React from 'react'
+import './indexNewsAlerts.css'
 
 const NewsAlerts = () => (
-  <div>
-    <h1>News Alerts Page</h1>
-    <p>This is where you can set up news alerts and have it checked throught the automatic fake news detector</p>
-  </div>
+    <div id="newsAlertsPageContainer">
+        <div id="newsAlertsLeftSideBar"></div>
+        <div id="newsAlertsContent">
+            <div id="newsAlertsHeader">
+                <h1>News Alerts Page</h1>
+            </div>
+            <p>
+                This is where you can set up news alerts and 
+                have it checked throught the automatic fake news detector
+            </p>
+        </div>
+        <div id="newsAlertsRightSideBar"></div>
+    </div>
 )
 
 export default NewsAlerts
