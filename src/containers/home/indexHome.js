@@ -6,7 +6,8 @@ const Home = props => (
     <div id="homeLeftSideBar"></div>
     <div id="homeContent">
       <div id="homeHeader">
-        <h1>Home Page</h1>
+        <h1>Who's Fake News:</h1>
+        <h2> The Comprehensive Automatic Fake News Detector</h2>
       </div>
       <div id="homeBody">
         <p>Here's more information about this website and what you can do with it.</p>
