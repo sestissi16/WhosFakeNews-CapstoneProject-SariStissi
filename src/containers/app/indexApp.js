@@ -2,9 +2,11 @@ import React from 'react'
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import {Navbar, Nav, Form, Button, FormControl, NavDropdown} from 'react-bootstrap'
 import Home from '../home'
-import About from '../about'
+import Upload from '../fakeNewsDetectionOptions/indexUpload'
+import NewsAlerts from '../fakeNewsDetectionOptions/indexNewsAlerts'
 import './indexApp.css'
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
+
 
 const App = () => (
   <div id="containerApp">
@@ -22,13 +24,14 @@ const App = () => (
           </NavDropdown>
         </Nav>
 
-        <Button variant="primary" className="float-right">Login</Button>
+        <Button href="/login" variant="primary" className="float-right">Login or Sign up</Button>
       </Navbar.Collapse>
     </Navbar>
 
     <Router>
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/Options/Upload" component={Upload} />
+        <Route exact path="/Options/NewsAlerts" component={NewsAlerts} />
     </Router>
   </div>
 )
