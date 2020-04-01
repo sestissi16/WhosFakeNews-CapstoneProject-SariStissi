@@ -14,6 +14,7 @@ const Home = props => (
         <div id="homeBodyContent">
           <div id="homeBodyTop">
             <p>Here's more information about this website and what you can do with it.</p>
+            <p>Credit: Image by <a href="https://pixabay.com/users/pixel2013-2364555/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1909821">S. Hermann &amp; F. Richter</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1909821">Pixabay</a></p>
           </div>
         </div>
         <div id="homeRightSideBar"></div>

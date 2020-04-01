@@ -42,6 +42,14 @@
     flex-grow: 1;
 }
 
+#homeBodyTop {
+    display: flex;
+    color: rgb(217, 241, 243);
+    height: 65%;
+    background-image: url('../../Media/CS488-freeFakeNewsImage.jpg');
+    background-size: 100% 100%;
+}
+
 #homeLeftSideBar, #homeRightSideBar {
     width: 8%;
     background-color: rgb(216, 25, 67);
