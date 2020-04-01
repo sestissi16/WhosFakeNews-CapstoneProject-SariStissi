@@ -1,0 +1,49 @@
+#loginPageContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#loginContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+}
+
+#loginHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+#loginLeftSideBar, #loginRightSideBar {
+    width: 8%;
+    background-color: rgb(230, 117, 43);
+    height: 100%;
+}
+
+@media (max-width:544px){
+    #loginLeftSideBar, #loginRightSideBar {
+        display: none;
+    }
+}
+
+@media (max-width:830px){
+    #loginRightSideBar {
+        display: none;
+    }
+
+    #loginLeftSideBar {
+        width: 7%;
+    }
+}
+
+@media (max-width:715px){
+    #loginRightSideBar {
+        display: none;
+    }
+
+    #loginLeftSideBar {
+        width: 4.5%;
+    }
+}
