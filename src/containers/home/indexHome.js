@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import './indexHome.css'
 
 const Home = props => (
@@ -6,8 +7,8 @@ const Home = props => (
     <div id="homeLeftSideBar"></div>
     <div id="homeContent">
       <div id="homeHeader">
-        <h1>Who's Fake News:</h1>
-        <h2> The Comprehensive Automatic Fake News Detector</h2>
+        <h6 id="homeHeaderMessage"><strong><em>Start uncovering fake news now by creating a FREE account</em></strong></h6>
+        <Button href="/login" variant="danger" id="homeHeaderSignUp">Sign Up</Button>
       </div>
       <div id="homeBody">
         <p>Here's more information about this website and what you can do with it.</p>
