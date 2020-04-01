@@ -83,6 +83,27 @@
     height: 100%;
 }
 
+@media (max-width:670px){
+    #homeHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 2% 1%;
+        background-color: rgb(17, 14, 14);
+    }
+    #homeHeaderSignUp {
+        margin: 1% 0%;
+    }
+    
+    #homeHeaderMessage {
+        color: rgb(217, 241, 243);
+        text-align: center;
+        padding: 1% 0% 0%;
+        margin: 0%;
+    }
+}
+
 @media (max-width:900px){
     #homeBodyTop{
         height: 60%;
