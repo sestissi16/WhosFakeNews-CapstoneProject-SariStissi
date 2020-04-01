@@ -5,8 +5,15 @@
 }
 
 #uploadContent {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     flex-grow: 1;
+}
+
+#uploadHeader{
+    display: flex;
+    flex-direction: row;
 }
 
 #uploadLeftSideBar, #uploadRightSideBar {
