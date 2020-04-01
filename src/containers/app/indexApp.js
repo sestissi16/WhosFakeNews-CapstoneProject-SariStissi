@@ -21,10 +21,8 @@ const App = () => (
             <NavDropdown.Item href="/Options/Extension">Extension for detection</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info">Search</Button>
-        </Form>
+
+        <Button variant="primary" className="float-right">Login</Button>
       </Navbar.Collapse>
     </Navbar>
 
