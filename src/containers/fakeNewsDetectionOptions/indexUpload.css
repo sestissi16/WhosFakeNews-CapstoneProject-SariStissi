@@ -1,42 +1,42 @@
-#homePageContainer {
+#uploadPageContainer {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
 
-#homeContent {
+#uploadContent {
     flex-grow: 4;
     height: 100%;
 }
 
-#homeLeftSideBar, #homeRightSideBar {
+#uploadLeftSideBar, #uploadRightSideBar {
     flex-grow: 1;
-    background-color: rgb(216, 25, 67);
+    background-color: rgb(237, 240, 69);
     height: 100%;
 }
 
 @media (max-width:544px){
-    #homeLeftSideBar, #homeRightSideBar {
+    #uploadLeftSideBar, #uploadRightSideBar {
         display: none;
     }
 }
 
 @media (max-width:830px){
-    #homeRightSideBar {
+    #uploadRightSideBar {
         display: none;
     }
 
-    #homeLeftSideBar {
+    #uploadLeftSideBar {
         flex-grow: 1.2;
     }
 }
 
 @media (max-width:715px){
-    #homeRightSideBar {
+    #uploadRightSideBar {
         display: none;
     }
 
-    #homeLeftSideBar {
+    #uploadLeftSideBar {
         flex-grow: 1.5;
     }
 }
