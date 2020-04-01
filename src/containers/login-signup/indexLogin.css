@@ -15,6 +15,13 @@
 #loginHeader{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+#loginBody {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 2%;
 }
 
 #loginLeftSideBar, #loginRightSideBar {
