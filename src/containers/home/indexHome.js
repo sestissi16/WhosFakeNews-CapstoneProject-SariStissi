@@ -12,7 +12,9 @@ const Home = props => (
       <div id="homeBody">
         <div id="homeLeftSideBar"></div>
         <div id="homeBodyContent">
-          <p>Here's more information about this website and what you can do with it.</p>
+          <div id="homeBodyTop">
+            <p>Here's more information about this website and what you can do with it.</p>
+          </div>
         </div>
         <div id="homeRightSideBar"></div>
       </div>
