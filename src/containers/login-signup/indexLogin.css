@@ -32,10 +32,12 @@
 #loginSection {
     border-right: 0.3em solid black;
     height: 50%;
+    padding: 0% 2%;
 }
 
 #signUpSection {
     height: 50%;
+    padding: 0% 2%;
 }
 
 #loginLeftSideBar, #loginRightSideBar {
