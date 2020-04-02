@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
+    width: 100%;
     flex-grow: 1;
 }
 
@@ -16,6 +17,7 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    width: 100%;
     padding: 2% 1%;
     background-color: rgb(17, 14, 14);
 }
@@ -34,27 +36,39 @@
     display: flex;
     flex-direction: row;
     height: 100%;
+    width: 100%;
 }
 
 #homeBodyContent {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    width: 100%;
 }
 
 #homeBodyTop {
     display: flex;
     flex-direction: row;
-    height: 60%;
+    align-items: center;
+    width: 100%;
 }
 
-#homeBodyTopTitle {
+#homeBodyTopInfo {
     padding: 2% 0% 0% 1.5%;
     width: 50%;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#homeBodyTopTitle {
     font-size: 3em;
-    align-self: flex-start;
     font-family: 'Titillium Web', sans-serif;
+}
+
+#homeBodyTopSub {
+    font-size: 1.8em;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #homeBodyTopImage {
@@ -65,7 +79,6 @@
 }
 
 #homeFakeNewsImage {
-    max-width: 100%;
     border-radius: 5%;
     padding: 2%;
 }
@@ -106,45 +119,91 @@
 
 @media (max-width:900px){
     #homeBodyTop{
-        height: 60%;
+        height: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    #homeBodyTopTitle {
-        font-size: 2.5em;
+    #homeBodyTopInfo {
+        height: 40%;
         order: 1;
         width: 100%;
         padding: 0% 1.5%;
+    }
+
+    #homeBodyTopTitle {
+        font-size: 2.5em;
         text-align: center;
     }
 
+    #homeBodyTopSub {
+        font-size: 1.3em;
+    }
+
     #homeBodyTopImage {
+        height: 60%;
+        width: 100%;
         order: 2;
-        max-height: 60%;
-        width: 90%;
         border-radius: 5%;
+    }
+
+    #homeFakeNewsImage {
+        height: 95%;
+    }
+
+    #homeBodyTopCredit {
+        height: 5%;
     }
 }
 
 @media (max-width: 535px){
     #homeBodyTopTitle{
         font-size: 2em;
+        text-align: center;
+    }
+
+    #homeBodyTopSub {
+        font-size: 1em;
+    }
+
+    #homeBodyTopInfo {
+        height: 30%;
         order: 1;
         width: 100%;
         padding: 0% 1.5%;
-        text-align: center;
+    }
+
+    #homeBodyTopImage {
+        height: 70%;
+        width: 100%;
+        order: 2;
+        border-radius: 5%;
     }
 }
 
 @media (max-width: 405px){
     #homeBodyTopTitle{
         font-size: 1.5em;
+        text-align: center;
+    }
+
+    #homeBodyTopSub{
+        font-size: 0.9em;
+    }
+
+    #homeBodyTopInfo {
+        height: 30%;
         order: 1;
         width: 100%;
         padding: 0% 1.5%;
-        text-align: center;
+    }
+
+    #homeBodyTopImage {
+        height: 70%;
+        width: 100%;
+        order: 2;
+        border-radius: 5%;
     }
 }
 
