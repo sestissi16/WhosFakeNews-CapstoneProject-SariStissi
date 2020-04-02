@@ -27,6 +27,7 @@
     "redux": "4.0.5",
     "redux-thunk": "2.3.0",
     "sanitize.css": "7.0.3",
+    "semantic-ui-react": "^0.88.2",
     "serve": "10.1.2"
   },
   "browserslist": [

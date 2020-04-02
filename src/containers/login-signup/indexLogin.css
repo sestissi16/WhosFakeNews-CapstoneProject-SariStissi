@@ -31,13 +31,25 @@
 
 #loginSection {
     border-right: 0.1em solid black;
-    height: 50%;
+    height: 70%;
     padding: 0% 2%;
 }
 
+#loginForm{
+    height: 100%;
+}
+
+#loginDivider {
+    background-color:  black;
+}
+
 #signUpSection {
-    height: 50%;
+    height: 70%;
     padding: 0% 2%;
+}
+
+#signUpForm {
+    height: 100%;
 }
 
 #loginLeftSideBar, #loginRightSideBar {
