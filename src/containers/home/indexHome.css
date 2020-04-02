@@ -27,8 +27,8 @@
 }
 
 #homeHeaderMessage {
+    font-size: 2em;
     color: rgb(217, 241, 243);
-    padding: 1% 0% 0%;
     margin: 0%;
 }
 
@@ -94,6 +94,23 @@
     width: 8%;
     background-color: rgb(216, 25, 67);
     height: 100%;
+}
+
+@media (max-width:1250px){
+    #homeHeaderMessage {
+        font-size: 1.5em;
+        color: rgb(217, 241, 243);
+        margin: 0%;
+    }
+}
+
+@media (max-width:960px){
+    #homeHeaderMessage {
+        font-size: 1em;
+        color: rgb(217, 241, 243);
+        padding: 1% 0% 0%;
+        margin: 0%;
+    }
 }
 
 @media (max-width:670px){
