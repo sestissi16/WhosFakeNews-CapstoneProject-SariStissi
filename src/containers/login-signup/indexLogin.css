@@ -21,8 +21,21 @@
 
 #loginBody {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     margin: 0% 2%;
+    height: 100%;
+}
+
+#loginSection {
+    border-right: 0.3em solid black;
+    height: 50%;
+}
+
+#signUpSection {
+    height: 50%;
 }
 
 #loginLeftSideBar, #loginRightSideBar {

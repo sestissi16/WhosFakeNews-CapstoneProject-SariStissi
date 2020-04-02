@@ -9,7 +9,12 @@ const LoginSignUp = () => (
                 <h1>Login or Sign Up</h1>
             </div>
             <div id="loginBody">
-                <p>This is where you can login to save the results of the fake news testing.</p>
+                <div id="loginSection">
+                    <p>Placeholder text for login section</p>
+                </div>
+                <div id="signUpSection">
+                    <p>Placeholder text for the sign up section</p>
+                </div>
             </div>
         </div>
         <div id="loginRightSideBar"></div>
