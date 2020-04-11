@@ -65,10 +65,6 @@
 }
 
 @media (max-width:830px){
-    .hidden {
-        display: none;
-    }
-    
     #signUpSection {
         height: 70%;
         padding: 0% 2%;
