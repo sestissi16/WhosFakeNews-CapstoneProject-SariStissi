@@ -1,7 +1,7 @@
 import React from 'react'
 import { Form, InputGroup, Button, Col } from 'react-bootstrap'
 import { Divider } from 'semantic-ui-react'
-import './indexLogin.css'
+import './indexLoginOrSignUp.css'
 
 const LoginSignUp = () => (
     <div id="loginPageContainer">

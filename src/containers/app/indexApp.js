@@ -4,7 +4,7 @@ import {Navbar, Nav, Form, Button, FormControl, NavDropdown} from 'react-bootstr
 import Home from '../home/indexHome'
 import Upload from '../fakeNewsDetectionOptions/indexUpload'
 import NewsAlerts from '../fakeNewsDetectionOptions/indexNewsAlerts'
-import LoginSignUp from '../login-signup/indexLogin'
+import LoginSignUp from '../login-signup/indexLoginOrSignUp'
 import Extension from '../fakeNewsDetectionOptions/indexExtension'
 import { FaRegNewspaper, FaRegQuestionCircle } from 'react-icons/fa'
 import './indexApp.css'
