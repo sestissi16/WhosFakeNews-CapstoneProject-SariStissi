@@ -28,8 +28,8 @@ const App = () => (
           </NavDropdown>
         </Nav>
 
-        <Button href="/Login" variant="danger" className="float-right">Login</Button>
-        <Button href="/SignUp" variant="danger" className="float-right">SignUp</Button>
+        <Button href="/Login" variant="danger" className="float-right" id="navLogin">Login</Button>
+        <Button href="/SignUp" variant="danger" className="float-right" id="navSignUp">SignUp</Button>
       </Navbar.Collapse>
     </Navbar>
 
