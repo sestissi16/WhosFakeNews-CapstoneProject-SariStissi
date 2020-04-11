@@ -9,7 +9,7 @@ const Home = props => (
     <div id="homeContent">
       <div id="homeHeader">
         <h6 id="homeHeaderMessage"><strong><em>Start uncovering fake news now by creating a FREE account</em></strong></h6>
-        <Button href="/login" variant="danger" id="homeHeaderSignUp">Sign Up</Button>
+        <Button href="/SignUp" variant="danger" id="homeHeaderSignUp">Sign Up</Button>
       </div>
       <div id="homeBody">
         <div id="homeLeftSideBar"></div>

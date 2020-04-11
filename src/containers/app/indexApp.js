@@ -4,7 +4,8 @@ import {Navbar, Nav, Form, Button, FormControl, NavDropdown} from 'react-bootstr
 import Home from '../home/indexHome'
 import Upload from '../fakeNewsDetectionOptions/indexUpload'
 import NewsAlerts from '../fakeNewsDetectionOptions/indexNewsAlerts'
-import LoginSignUp from '../login-signup/indexLoginOrSignUp'
+import Login from '../login-signup/indexLogin'
+import SignUp from '../login-signup/indexSignUp'
 import Extension from '../fakeNewsDetectionOptions/indexExtension'
 import { FaRegNewspaper, FaRegQuestionCircle } from 'react-icons/fa'
 import './indexApp.css'
@@ -27,7 +28,8 @@ const App = () => (
           </NavDropdown>
         </Nav>
 
-        <Button href="/Login" variant="danger" className="float-right">Login or Sign up</Button>
+        <Button href="/Login" variant="danger" className="float-right">Login</Button>
+        <Button href="/SignUp" variant="danger" className="float-right">SignUp</Button>
       </Navbar.Collapse>
     </Navbar>
 
@@ -35,7 +37,8 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route exact path="/Options/Upload" component={Upload} />
         <Route exact path="/Options/NewsAlerts" component={NewsAlerts} />
-        <Route exact path="/Login" component={LoginSignUp} />
+        <Route exact path="/Login" component={Login} />
+        <Route exact path="/SignUp" component={SignUp} />
         <Route exact path="/Options/Extension" component={Extension} />
     </Router>
   </div>
