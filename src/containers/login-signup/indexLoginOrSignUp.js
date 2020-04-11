@@ -43,7 +43,7 @@ const LoginSignUp = () => (
                         <Button type="submit">Login</Button>
                     </Form>
                 </div>
-                <div id="signUpSection">
+                <div id="signUpSection" className="hidden">
                     <h3>Sign-Up</h3>
                     <Form id="signUpForm">
                         <Form.Row>
