@@ -8,10 +8,13 @@ const LoginSignUp = () => (
         <div id="loginLeftSideBar"></div>
         <div id="loginContent">
             <div id="loginHeader">
-                <h1>Login or Sign Up</h1>
+                <h2>Pick up where you left off</h2>
+                <h2>or</h2> 
+                <h2>Get started finding fake news</h2>
             </div>
             <div id="loginBody">
                 <div id="loginSection">
+                    <h3>Login</h3>
                     <Form id="loginForm">
                         <Form.Group controlId="formGroupEmail">
                             <Form.Label>Email address</Form.Label>
@@ -41,6 +44,7 @@ const LoginSignUp = () => (
                     </Form>
                 </div>
                 <div id="signUpSection">
+                    <h3>Sign-Up</h3>
                     <Form id="signUpForm">
                         <Form.Row>
                             <Form.Group as={Col} md="6" controlId="signInFirstName">

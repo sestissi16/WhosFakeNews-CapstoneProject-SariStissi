@@ -14,7 +14,7 @@
 
 #loginHeader{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin: 2% 1% 0%;
 }
