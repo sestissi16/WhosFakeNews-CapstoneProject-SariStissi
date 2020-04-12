@@ -7,6 +7,7 @@ import NewsAlerts from '../fakeNewsDetectionOptions/indexNewsAlerts'
 import Login from '../login-signup/indexLogin'
 import SignUp from '../login-signup/indexSignUp'
 import Extension from '../fakeNewsDetectionOptions/indexExtension'
+import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-NoTitle-30x30png.png'
 import { FaRegNewspaper, FaRegQuestionCircle } from 'react-icons/fa'
 import './indexApp.css'
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
@@ -15,7 +16,16 @@ import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
 const App = () => (
   <div id="containerApp">
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top" id="navBarItem">
-      <Navbar.Brand href="/"> <FaRegNewspaper /><FaRegQuestionCircle /> Who's Fake News?</Navbar.Brand>
+      <Navbar.Brand href="/"> 
+        <img
+          alt="icon"
+          src={Logo}
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+        />{' '}
+        Who's Fake News?
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav variant="pills" className="mr-auto">
