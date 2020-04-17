@@ -4,8 +4,18 @@ import './indexFaq.css'
 
 const FAQ = () => (
     <div id="faqPageContainer">
-        <h1>FAQ Page</h1>
-
+        <div id="faqContent">
+            <div id="faqHeader">
+                <h6 id="faqHeaderMessage"><strong><em>FAQ Page</em></strong></h6>
+            </div>
+            <div id="faqBody">
+                <div id="faqLeftSideBar"></div>
+                <div id="faqBodyContent">
+                    <p>Content for FAQ</p>
+                </div>
+                <div id="faqRightSideBar"></div>
+            </div>
+        </div>
     </div>
 )
 
