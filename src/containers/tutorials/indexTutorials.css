@@ -1,0 +1,67 @@
+#tutorialsPageContainer{
+    display: flex;
+    height: 100%;
+}
+
+#tutorialsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#tutorialsHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 1%;
+    background-color: rgb(188, 255, 161);
+}
+
+#tutorialsBody {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#tutorialsBodyContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
+
+#tutorialsLeftSideBar, #tutorialsRightSideBar {
+    width: 8%;
+    background-color: rgb(114, 248, 96);
+    height: 100%;
+}
+
+@media (max-width:544px){
+    #tutorialsLeftSideBar, #tutorialsRightSideBar {
+        display: none;
+    }
+}
+
+@media (max-width:830px){
+    #tutorialsRightSideBar {
+        display: none;
+    }
+
+    #tutorialsLeftSideBar {
+        width: 7%;
+    }
+}
+
+@media (max-width:715px){
+    #tutorialsRightSideBar {
+        display: none;
+    }
+
+    #tutorialsLeftSideBar {
+        width: 4.5%;
+    }
+}
