@@ -10,7 +10,8 @@ import Extension from '../fakeNewsDetectionOptions/indexExtension'
 import FAQ from '../faq/indexFaq'
 import Feedback from '../feedback/indexFeeback'
 import PastResults from '../pastResults/indexPastResults'
-import Resources from '../resources/indexResources'
+import MoreResources from '../moreResources/indexMoreResources'
+import Tutorials from '../tutorials/indexTutorials'
 import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-NoTitle-30x30png.png'
 import { FaRegNewspaper, FaRegQuestionCircle } from 'react-icons/fa'
 import './indexApp.css'
@@ -41,10 +42,12 @@ const App = () => (
             <NavDropdown.Item href="/Options/Extension">Extension for detection</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/PastResults">Detection Results Log</Nav.Link>
-          <Nav.Link href="/FAQ">FAQ</Nav.Link>
-          <Nav.Link href="/Resources">Resources</Nav.Link>
-          <Nav.Link href="/Feedback">Feedback</Nav.Link>
-          
+          <NavDropdown title="Resources" id="collasible-nav-dropdown">
+            <NavDropdown.Item href="/Resources/FAQ">FAQ</NavDropdown.Item>
+            <NavDropdown.Item href="/Resources/Tutorials">Tutorials</NavDropdown.Item>
+            <NavDropdown.Item href="/Resources/MoreResources">More Fake News Resources</NavDropdown.Item>
+            <NavDropdown.Item href="/Resources/Feedback">Feedback</NavDropdown.Item>
+          </NavDropdown>
         </Nav>
 
         <Button href="/Login" variant="danger" className="float-right" id="navLogin">Login</Button>
@@ -59,10 +62,11 @@ const App = () => (
         <Route exact path="/Login" component={Login} />
         <Route exact path="/SignUp" component={SignUp} />
         <Route exact path="/Options/Extension" component={Extension} />
-        <Route exact path="/FAQ" component={FAQ}/>
-        <Route exact path="/Feedback" component={Feedback}/>
+        <Route exact path="/Resources/FAQ" component={FAQ}/>
+        <Route exact path="/Resources/Feedback" component={Feedback}/>
         <Route exact path="/PastResults" component={PastResults}/>
-        <Route exact path="/Resources" component={Resources}/>
+        <Route exact path="/Resources/MoreResources" component={MoreResources}/>
+        <Route exact path="/Resources/Tutorials" component={Tutorials}/>
     </Router>
   </div>
 )
