@@ -15,28 +15,11 @@ const SignUp = () => (
                     <h3>Sign-Up</h3>
                     <Form id="signUpForm">
                         <Form.Row>
-                            <Form.Group as={Col} md="6" controlId="signInFirstName">
-                                <Form.Label>First name</Form.Label>
-                                <Form.Control
-                                    required
-                                    type="text"
-                                    placeholder="First name"
-                                    defaultValue="John"
-                                />
+                            <Form.Group as={Col} md="7" controlId="formGroupEmail">
+                                <Form.Label>Email address</Form.Label>
+                                <Form.Control type="email" placeholder="Enter email" />
                             </Form.Group>
-                            <Form.Group as={Col} md="6" controlId="signInLastName">
-                                <Form.Label>Last name</Form.Label>
-                                <Form.Control
-                                    required
-                                    type="text"
-                                    placeholder="Last name"
-                                    defaultValue="Doe"
-                                />
-                            </Form.Group>
-                        </Form.Row>
-                        <Divider />
-                        <Form.Row>
-                            <Form.Group as={Col} md="8" controlId="signInUsername">
+                            <Form.Group as={Col} md="5" controlId="signInUsername">
                                 <Form.Label>Username</Form.Label>
                                 <InputGroup>
                                     <InputGroup.Prepend>
