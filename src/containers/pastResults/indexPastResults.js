@@ -4,8 +4,18 @@ import './indexPastResults.css'
 
 const PastResults = () => (
     <div id="pastResultsPageContainer">
-        <h1>Past Results Page</h1>
-
+        <div id="pastResultsContent">
+            <div id="pastResultsHeader">
+                <h6 id="pastResultsHeaderMessage"><strong><em>Past Results Page</em></strong></h6>
+            </div>
+            <div id="pastResultsBody">
+                <div id="pastResultsLeftSideBar"></div>
+                <div id="pastResultsBodyContent">
+                    <p>Content for Past Results Page</p>
+                </div>
+                <div id="pastResultsRightSideBar"></div>
+            </div>
+        </div>
     </div>
 )
 
