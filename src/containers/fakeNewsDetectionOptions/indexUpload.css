@@ -1,6 +1,5 @@
-#uploadPageContainer {
+#uploadPageContainer{
     display: flex;
-    flex-direction: row;
     height: 100%;
 }
 
@@ -9,25 +8,35 @@
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
+    width: 100%;
     flex-grow: 1;
 }
 
-#uploadHeader{
+#uploadHeader {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin: 2% 1% 0%;
+    width: 100%;
+    padding: 2% 1%;
+    background-color: rgb(253, 255, 161);
 }
 
 #uploadBody {
     display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#uploadBodyContent {
+    display: flex;
     flex-direction: column;
-    margin: 0% 2%;
+    flex-grow: 1;
+    width: 100%;
 }
 
 #uploadLeftSideBar, #uploadRightSideBar {
     width: 8%;
-    background-color: rgb(237, 240, 69);
+    background-color: rgb(250, 235, 31);
     height: 100%;
 }
 
