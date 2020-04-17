@@ -4,8 +4,18 @@ import './indexFeedback.css'
 
 const Feedback = () => (
     <div id="feedbackPageContainer">
-        <h1>Feedback Page</h1>
-
+        <div id="feedbackContent">
+            <div id="feedbackHeader">
+                <h6 id="feedbackHeaderMessage"><strong><em>Feedback Page</em></strong></h6>
+            </div>
+            <div id="feedbackBody">
+                <div id="feedbackLeftSideBar"></div>
+                <div id="feedbackBodyContent">
+                    <p>Content for Feedback</p>
+                </div>
+                <div id="feedbackRightSideBar"></div>
+            </div>
+        </div>
     </div>
 )
 
