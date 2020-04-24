@@ -34,7 +34,6 @@ const App = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav variant="pills" className="mr-auto">
-          <Nav.Link href="/">Home</Nav.Link>
           <NavDropdown title="Detection Options" id="collasible-nav-dropdown">
             <NavDropdown.Item href="/Options/Upload">Upload</NavDropdown.Item>
             <NavDropdown.Item href="/Options/NewsAlerts">News Alerts</NavDropdown.Item>

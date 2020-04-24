@@ -2,36 +2,28 @@ import React from 'react'
 import { Button } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'
 import FakeNewsImage from '../../Media/CS488-smallFreeFakeNewsImage.jpg'
+import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-120x120.png'
 import './indexHome.css'
 
 const Home = props => (
   <div id="homePageContainer">
     <div id="homeContent">
       <div id="homeHeader">
-        <h6 id="homeHeaderMessage"><strong><em>Start uncovering fake news now by creating a FREE account</em></strong></h6>
+        <h6 id="homeHeaderMessage"><strong><em>Set up a free account for more Fake News Detection features</em></strong></h6>
         <Button href="/SignUp" variant="danger" id="homeHeaderSignUp">Sign Up</Button>
       </div>
       <div id="homeBody">
         <div id="homeLeftSideBar"></div>
         <div id="homeBodyContent">
           <div id="homeBodyTop">
+            <div id="homeBodyTopTitle">
+              <h1>Welcome!</h1>
+            </div>
             <div id="homeBodyTopImage">
-              <img id="homeFakeNewsImage" src={FakeNewsImage} alt="a desk with a computer where the words fake news displayed" fluid/>
-              <p id="homeBodyTopCredit">Credit: Image by 
-                <a href="https://pixabay.com/users/pixel2013-2364555/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1909821">
-                  S. Hermann &amp; F. Richter
-                </a> from 
-                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1909821">
-                  Pixabay
-                </a>
-              </p>
+              <img id="homeBodyTopLogo" src={Logo} alt="logo reads Who's Fake News that is above a question mark where the dot is a newspaper icon" fluid/>
             </div>
             <div id="homeBodyTopInfo">
-              <p id="homeBodyTopTitle"><strong>Find out whether something is Fake News with ease</strong></p>
-              <p id="homeBodyTopSub">
-                Welcome to the one-stop shop of fake news detection. 
-                Our detection is accurate as well as easy to use with three different ways to get results.
-              </p>
+              <h1>Scroll down to find out how to get started</h1>
             </div>
           </div>
         </div>

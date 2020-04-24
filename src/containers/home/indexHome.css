@@ -51,10 +51,14 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
+    background-color: rgb(147, 16, 36);
+    padding: 1% 0%;
+    border-bottom: solid dimgrey .2em;
+    color: white;
 }
 
 #homeBodyTopInfo {
-    padding: 2% 0% 0% 1.5%;
+    /* padding: 2% 0% 0% 1.5%; */
     width: 50%;
     text-align: left;
     display: flex;
@@ -62,37 +66,25 @@
 }
 
 #homeBodyTopTitle {
+    width: 30%;
     font-size: 3em;
     font-family: 'Titillium Web', sans-serif;
 }
 
-#homeBodyTopSub {
-    font-size: 1.8em;
-    font-family: 'Source Code Pro', monospace;
-}
-
 #homeBodyTopImage {
-    height: fit-content;
-    width: 50%;
+    height: 100%;
+    width: 20%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
-#homeFakeNewsImage {
-    border-radius: 5%;
-    padding: 2%;
-}
-
-#homeBodyTopCredit {
-    font-size: 0.8em;
-    color: black;
-    margin: 0%;
+#homeBodyTopLogo {
     width: 100%;
 }
 
 #homeLeftSideBar, #homeRightSideBar {
     width: 8%;
-    background-color: rgb(216, 25, 67);
+    background-color: rgb(172, 172, 172);
     height: 100%;
 }
 
