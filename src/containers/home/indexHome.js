@@ -20,9 +20,6 @@ const Home = props => (
               <div id="homeBodyTopTitle">
                 <h1 id="homeBodyTopTitleHeader">Welcome to the <br/> Who's Fake News Project!</h1>
               </div>
-              {/* <div id="homeBodyTopInfo">
-                <h1 id="homeBodyTopInfoHeader"> Scroll down to find out how to get started</h1>
-              </div> */}
             </div>
             <div id="homeBodyTopImage">
               <img id="homeBodyTopNews" src={HomepageImage} alt="cartoon image of news podium with arms with microphones sticking out from it" fluid/>
