@@ -42,6 +42,7 @@
 #homeBodyContent {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-grow: 1;
     width: 100%;
 }
@@ -54,6 +55,7 @@
     background-color: rgba(33, 41, 92, 0.925);
     color: #FFFBFC;
     height: 35%;
+    width: 100%;
 }
 
 #homeBodyText {
@@ -94,6 +96,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 60%;
+    width: 95%;
+}
+
+#homeBodyGetStartedTagline {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 #homeBodyGetStartedTaglineText{
@@ -102,6 +114,49 @@
 
 #homeBodyGetStartedWaysText {
     font-size: 2em;
+}
+
+#homeBodyGetStartedOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 65%;
+}
+
+#homeBodyGetStartedOptionsLearn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DB5461;
+    height: 100%;
+    width: 25%;
+    padding: 0% 1%;
+    color: #000000;
+}
+
+#homeBodyGetStartedOptionsResources {
+    background-color: #AD343E;
+    height: 100%;
+    width: 25%;
+    padding: 0% 1%;
+    color: #FFFBFC;
+}
+
+#homeBodyGetStartedOptionsMethods {
+    background-color: #3E5C76;
+    height: 100%;
+    width: 25%;
+    padding: 0% 1%;
+    color: #FFFBFC;
+}
+
+#homeBodyGetStartedOptionsSignUp {
+    background-color: #CFEAED;
+    height: 100%;
+    width: 25%;
+    padding: 0% 1%;
+    color: black;
 }
 
 @media (max-width:445px){
@@ -147,6 +202,12 @@
         padding: 1% 0% 0%;
         margin: 0%;
     }
+    #homeBodyGetStartedTaglineText{
+        font-size: 1.5em;
+    }
+    #homeBodyGetStartedWaysText {
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width:768px) {
@@ -190,6 +251,58 @@
     }
     #homeBodyGetStartedWaysText {
         font-size: 1.5em;
+    }
+    #homeBodyGetStarted {
+        padding: 2% 0% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80%;
+        width: 100%;
+    }
+    #homeBodyGetStartedTagline {
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #homeBodyGetStartedOptions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* align-content: space-around; */
+        height: 55%;
+    }
+    #homeBodyGetStartedOptionsLearn {
+        background-color: #DB5461;
+        width: 100%;
+        padding: 0% 1%;
+        color: #000000;
+        margin: 0% 0% 1%;
+    }
+    
+    #homeBodyGetStartedOptionsResources {
+        background-color: #AD343E;
+        width: 100%;
+        padding: 0% 1%;
+        color: #FFFBFC;
+        margin: 0% 0% 1%;
+    }
+    
+    #homeBodyGetStartedOptionsMethods {
+        background-color: #3E5C76;
+        width: 100%;
+        padding: 0% 1%;
+        color: #FFFBFC;
+        margin: 0% 0% 1%;
+    }
+    
+    #homeBodyGetStartedOptionsSignUp {
+        background-color: #CFEAED;
+        width: 100%;
+        padding: 0% 1%;
+        color: black;
+        margin: 0% 0% 1%;
     }
 }
 
