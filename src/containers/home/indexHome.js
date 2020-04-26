@@ -10,7 +10,7 @@ const Home = props => (
   <div id="homePageContainer">
     <div id="homeContent">
       <div id="homeHeader">
-        <h6 id="homeHeaderMessage"><strong><em>Set up a free account for more Fake News Detection features</em></strong></h6>
+        <h6 id="homeHeaderMessage"><strong>Set up a free account for more Fake News Detection features</strong></h6>
         <Button href="/SignUp" variant="danger" id="homeHeaderSignUp">Sign Up</Button>
       </div>
       <div id="homeBody">
@@ -31,7 +31,7 @@ const Home = props => (
           <div id="homeBodyGetStarted">
             <div id="homeBodyGetStartedTagline">
               <h2 id="homeBodyGetStartedTaglineText">We're here to help you find fake news!</h2>
-              <h3 id="homeBodyGetyStartedWaysText">Here are some ways you can get started:</h3>
+              <h3 id="homeBodyGetStartedWaysText">Here are some ways you can get started:</h3>
             </div>
           </div>
         </div>

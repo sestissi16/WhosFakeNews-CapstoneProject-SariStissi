@@ -94,8 +94,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Source Code Pro', monospace;
+}
 
+#homeBodyGetStartedTaglineText{
+    font-size: 2.2em;
+}
+
+#homeBodyGetStartedWaysText {
+    font-size: 2em;
 }
 
 @media (max-width:445px){
@@ -179,7 +185,12 @@
         /* border-bottom: solid dimgrey .2em; */
         /* color: #FFFBFC; */
     }
-    
+    #homeBodyGetStartedTaglineText{
+        font-size: 1.7em;
+    }
+    #homeBodyGetStartedWaysText {
+        font-size: 1.5em;
+    }
 }
 
 @media (max-width:1023px) {
@@ -225,6 +236,7 @@
         width: 40%;
         height: 80%;
     }
+    
 }
 
 @media (max-width:1250px){
