@@ -28,6 +28,12 @@ const Home = props => (
               <img id="homeBodyTopNews" src={HomepageImage} alt="cartoon image of news podium with arms with microphones sticking out from it" fluid/>
             </div>
           </div>
+          <div id="homeBodyGetStarted">
+            <div id="homeBodyGetStartedTagline">
+              <h2 id="homeBodyGetStartedTaglineText">We're here to help you find fake news!</h2>
+              <h3 id="homeBodyGetyStartedWaysText">Here are some ways you can get started:</h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>

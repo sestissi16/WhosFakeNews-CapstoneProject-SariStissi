@@ -68,14 +68,6 @@
     /* color: #FFFBFC; */
 }
 
-#homeBodyTopInfo {
-    /* padding: 2% 0% 0% 1.5%; */
-    width: 90%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-}
-
 #homeBodyTopTitle {
     width: 90%;
     font-size: 3em;
@@ -97,6 +89,15 @@
     align-self: flex-end;
 }
 
+#homeBodyGetStarted {
+    padding: 2% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
 @media (max-width:445px){
     /* Changes for mobile view */
     #homeBodyTopTitle{
@@ -104,9 +105,6 @@
     }
     #homeBodyTopTitleHeader {
         font-size: 0.8em;
-    }
-    #homeBodyTopInfoHeader {
-        font-size: 0.7em;
     }
     #homeBodyTopInfo{
         text-align: center;   
@@ -137,7 +135,6 @@
     #homeHeaderSignUp {
         margin: 1% 0%;
     }
-    
     #homeHeaderMessage {
         color: rgb(217, 241, 243);
         text-align: center;
@@ -157,10 +154,6 @@
     }
     #homeBodyTopTitle{
         text-align: center;
-    }
-    #homeBodyTopInfo{
-        text-align: center;   
-        padding: 1% 1%; 
     }
     #homeBodyTopNews {
         /* padding: 2% 0% 0%; */
@@ -210,18 +203,6 @@
         /* color: #FFFBFC; */
     }
 
-    #homeBodyTopInfo {
-        /* padding: 2% 0% 0% 1.5%; */
-        order: 2;
-        width: 100%;
-        height: 50%;
-        font-size: 2em;
-        text-align: center;
-        display: flex;
-        align-content: center;
-        align-items: center;
-    }
-    
     #homeBodyTopTitle {
         order: 1;
         width: 100%;
@@ -269,7 +250,6 @@
     #homeHeaderSignUp {
         margin: 1% 0%;
     }
-    
     #homeHeaderMessage {
         color: rgb(217, 241, 243);
         text-align: center;

@@ -18,10 +18,10 @@ body {
 
 h1,h2,h3 {
   text-align: center;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 }
 h4,h5,h6 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 button:disabled {
