@@ -13,7 +13,6 @@ const Home = props => (
         <Button href="/SignUp" variant="danger" id="homeHeaderSignUp">Sign Up</Button>
       </div>
       <div id="homeBody">
-        <div id="homeLeftSideBar"></div>
         <div id="homeBodyContent">
           <div id="homeBodyTop">
             <div id="homeBodyTopTitle">
@@ -27,7 +26,6 @@ const Home = props => (
             </div>
           </div>
         </div>
-        <div id="homeRightSideBar"></div>
       </div>
     </div>
   </div>

@@ -51,10 +51,10 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    background-color: rgb(147, 16, 36);
+    background-color: #A53F58;
     padding: 1% 0%;
     border-bottom: solid dimgrey .2em;
-    color: white;
+    color: #FFFBFC;
 }
 
 #homeBodyTopInfo {
@@ -82,12 +82,6 @@
     width: 100%;
 }
 
-#homeLeftSideBar, #homeRightSideBar {
-    width: 8%;
-    background-color: rgb(172, 172, 172);
-    height: 100%;
-}
-
 @media (max-width:1250px){
     #homeHeaderMessage {
         font-size: 1.5em;
@@ -102,6 +96,95 @@
         color: rgb(217, 241, 243);
         padding: 1% 0% 0%;
         margin: 0%;
+    }
+
+    #homeBodyTop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #A53F58;
+        padding: 1% 0%;
+        border-bottom: solid dimgrey .2em;
+        color: #FFFBFC;
+    }
+
+    #homeBodyTopInfo {
+        /* padding: 2% 0% 0% 1.5%; */
+        order: 3;
+        width: 100%;
+        height: 40%;
+        text-align: left;
+        display: flex;
+    }
+    
+    #homeBodyTopTitle {
+        order: 1;
+        width: 100%;
+        height: 30%;
+        font-size: 3em;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    
+    #homeBodyTopImage {
+        order: 2;
+        height: 30%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #homeBodyTopLogo {
+        width: 50%;
+        height: 70%;
+    }
+}
+
+@media(max-width:890px) {
+    #homeBodyTop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #A53F58;
+        padding: 1% 0%;
+        border-bottom: solid dimgrey .2em;
+        color: #FFFBFC;
+    }
+
+    #homeBodyTopInfo {
+        /* padding: 2% 0% 0% 1.5%; */
+        order: 3;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+    
+    #homeBodyTopTitle {
+        order: 1;
+        width: 100%;
+        height: 20%;
+        font-size: 3em;
+        font-family: 'Titillium Web', sans-serif;
+        align-content: center;
+        align-items: center;
+    }
+    
+    #homeBodyTopImage {
+        order: 2;
+        height: 60%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #homeBodyTopLogo {
+        width: 60%;
+        height: 80%;
     }
 }
 
@@ -126,45 +209,6 @@
     }
 }
 
-@media (max-width:900px){
-    #homeBodyTop{
-        height: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #homeBodyTopInfo {
-        height: 40%;
-        order: 1;
-        width: 100%;
-        padding: 0% 1.5%;
-    }
-
-    #homeBodyTopTitle {
-        font-size: 2.5em;
-        text-align: center;
-    }
-
-    #homeBodyTopSub {
-        font-size: 1.3em;
-    }
-
-    #homeBodyTopImage {
-        height: 60%;
-        width: 100%;
-        order: 2;
-        border-radius: 5%;
-    }
-
-    #homeFakeNewsImage {
-        height: 95%;
-    }
-
-    #homeBodyTopCredit {
-        height: 5%;
-    }
-}
 
 @media (max-width: 535px){
     #homeBodyTopTitle{
@@ -172,23 +216,6 @@
         text-align: center;
     }
 
-    #homeBodyTopSub {
-        font-size: 1em;
-    }
-
-    #homeBodyTopInfo {
-        height: 30%;
-        order: 1;
-        width: 100%;
-        padding: 0% 1.5%;
-    }
-
-    #homeBodyTopImage {
-        height: 70%;
-        width: 100%;
-        order: 2;
-        border-radius: 5%;
-    }
 }
 
 @media (max-width: 405px){
@@ -197,47 +224,5 @@
         text-align: center;
     }
 
-    #homeBodyTopSub{
-        font-size: 0.9em;
-    }
 
-    #homeBodyTopInfo {
-        height: 30%;
-        order: 1;
-        width: 100%;
-        padding: 0% 1.5%;
-    }
-
-    #homeBodyTopImage {
-        height: 70%;
-        width: 100%;
-        order: 2;
-        border-radius: 5%;
-    }
-}
-
-@media (max-width:544px){
-    #homeLeftSideBar, #homeRightSideBar {
-        display: none;
-    }
-}
-
-@media (max-width:830px){
-    #homeRightSideBar {
-        display: none;
-    }
-
-    #homeLeftSideBar {
-        width: 7%;
-    }
-}
-
-@media (max-width:715px){
-    #homeRightSideBar {
-        display: none;
-    }
-
-    #homeLeftSideBar {
-        width: 4.5%;
-    }
 }
