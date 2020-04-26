@@ -1,8 +1,9 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'
-import FakeNewsImage from '../../Media/CS488-smallFreeFakeNewsImage.jpg'
-import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-120x120.png'
+import HomepageImage from '../../Media/CS488-MicrophoneCartoonOfNews-Cropped.png'
+// import FakeNewsImage from '../../Media/CS488-smallFreeFakeNewsImage.jpg'
+// import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-120x120.png'
 import './indexHome.css'
 
 const Home = props => (
@@ -16,15 +17,15 @@ const Home = props => (
         <div id="homeBodyContent">
           <div id="homeBodyTop">
             <div id="homeBodyTopTitle">
-              <h1>Welcome!</h1>
-            </div>
-            <div id="homeBodyTopImage">
-              <img id="homeBodyTopLogo" src={Logo} alt="logo reads Who's Fake News that is above a question mark where the dot is a newspaper icon" fluid/>
+              <h1 id="homeBodyTopTitleHeader">Welcome!</h1>
             </div>
             <div id="homeBodyTopInfo">
-              <h1>Scroll down to find out how to get started</h1>
+              <h1 id="homeBodyTopInfoHeader"> Scroll down to find out how to get started</h1>
             </div>
           </div>
+          <div id="homeBodyTopImage">
+              <img id="homeBodyTopNews" src={HomepageImage} alt="cartoon image of news podium with arms with microphones sticking out from it" fluid/>
+            </div>
         </div>
       </div>
     </div>

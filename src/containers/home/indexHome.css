@@ -48,18 +48,18 @@
 
 #homeBodyTop {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #A53F58;
+    /* background-color: #A53F58; */
     padding: 1% 0%;
-    border-bottom: solid dimgrey .2em;
-    color: #FFFBFC;
+    /* border-bottom: solid dimgrey .2em; */
+    /* color: #FFFBFC; */
 }
 
 #homeBodyTopInfo {
     /* padding: 2% 0% 0% 1.5%; */
-    width: 50%;
+    width: 70%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -72,123 +72,38 @@
 }
 
 #homeBodyTopImage {
-    height: 100%;
-    width: 20%;
+    height: 40%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#homeBodyTopLogo {
-    width: 100%;
+#homeBodyTopNews {
+    width: 60%;
+    height: 70%;
 }
 
-@media (max-width:1250px){
-    #homeHeaderMessage {
+@media (max-width:425px){
+    /* Changes for mobile view */
+    #homeBodyTopTitle{
         font-size: 1.5em;
-        color: rgb(217, 241, 243);
-        margin: 0%;
+        text-align: center;
     }
-}
-
-@media (max-width:960px){
-    #homeHeaderMessage {
-        font-size: 1em;
-        color: rgb(217, 241, 243);
-        padding: 1% 0% 0%;
-        margin: 0%;
+    #homeBodyTopTitleHeader {
+        font-size: 1.1em;
     }
-
-    #homeBodyTop {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        background-color: #A53F58;
-        padding: 1% 0%;
-        border-bottom: solid dimgrey .2em;
-        color: #FFFBFC;
+    #homeBodyTopInfoHeader {
+        font-size: 0.7em;
     }
-
-    #homeBodyTopInfo {
-        /* padding: 2% 0% 0% 1.5%; */
-        order: 3;
-        width: 100%;
-        height: 40%;
-        text-align: left;
-        display: flex;
+    #homeBodyTopInfo{
+        text-align: center;   
+        padding: 1% 1%; 
     }
-    
-    #homeBodyTopTitle {
-        order: 1;
-        width: 100%;
-        height: 30%;
-        font-size: 3em;
-        font-family: 'Titillium Web', sans-serif;
-    }
-    
-    #homeBodyTopImage {
-        order: 2;
-        height: 30%;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #homeBodyTopLogo {
-        width: 50%;
+    #homeBodyTopNews {
+        padding: 2% 0% 0%;
+        width: 60%;
         height: 70%;
     }
-}
-
-@media(max-width:890px) {
-    #homeBodyTop {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        background-color: #A53F58;
-        padding: 1% 0%;
-        border-bottom: solid dimgrey .2em;
-        color: #FFFBFC;
-    }
-
-    #homeBodyTopInfo {
-        /* padding: 2% 0% 0% 1.5%; */
-        order: 3;
-        width: 100%;
-        height: 20%;
-        text-align: center;
-        display: flex;
-        align-content: center;
-        align-items: center;
-    }
-    
-    #homeBodyTopTitle {
-        order: 1;
-        width: 100%;
-        height: 20%;
-        font-size: 3em;
-        font-family: 'Titillium Web', sans-serif;
-        align-content: center;
-        align-items: center;
-    }
-    
-    #homeBodyTopImage {
-        order: 2;
-        height: 60%;
-        width: 60%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    #homeBodyTopLogo {
-        width: 60%;
-        height: 80%;
-    }
-}
-
-@media (max-width:670px){
     #homeHeader {
         display: flex;
         flex-direction: column;
@@ -209,20 +124,114 @@
     }
 }
 
-
-@media (max-width: 535px){
+@media (max-width:768px) {
+    /* Changes for tablet view */
+    #homeBodyTopTitleHeader {
+        font-size: 1.1em;
+    }
+    #homeBodyTopInfoHeader {
+        font-size: 0.7em;
+    }
     #homeBodyTopTitle{
-        font-size: 2em;
         text-align: center;
     }
-
+    #homeBodyTopInfo{
+        text-align: center;   
+        padding: 1% 1%; 
+    }
+    #homeBodyTopNews {
+        padding: 2% 0% 0%;
+        width: 60%;
+        height: 70%;
+    }
+    
 }
 
-@media (max-width: 405px){
-    #homeBodyTopTitle{
-        font-size: 1.5em;
+@media (max-width:1023px) {
+    /* Changes for laptop view and between tablet view */
+    #homeHeaderMessage {
+        font-size: 1.3em;
+        color: rgb(217, 241, 243);
+        padding: 1% 0% 0%;
+        margin: 0%;
         text-align: center;
     }
 
+    #homeBodyTop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* background-color: #A53F58; */
+        padding: 1% 0% 2%;
+        /* border-bottom: solid dimgrey .2em; */
+        /* color: #FFFBFC; */
+    }
 
+    #homeBodyTopInfo {
+        /* padding: 2% 0% 0% 1.5%; */
+        order: 2;
+        width: 100%;
+        height: 50%;
+        font-size: 2em;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+    
+    #homeBodyTopTitle {
+        order: 1;
+        width: 100%;
+        height: 50%;
+        font-size: 2em;
+        font-family: 'Titillium Web', sans-serif;
+        align-content: center;
+        align-items: center;
+    }
+    
+    #homeBodyTopImage {
+        /* height: 40%; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #homeBodyTopNews {
+        width: 60%;
+        height: 70%;
+    }
+}
+
+@media (max-width:1250px){
+    /* For the header message text to look nice */
+    #homeHeaderMessage {
+        font-size: 1.4em;
+        color: rgb(217, 241, 243);
+        margin: 0%;
+    }
+}
+ 
+
+@media (max-width:688px){
+    /* Needed for the home header for signup to look nice if resized */
+    #homeHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 2% 1%;
+        background-color: rgb(17, 14, 14);
+    }
+    #homeHeaderSignUp {
+        margin: 1% 0%;
+    }
+    
+    #homeHeaderMessage {
+        color: rgb(217, 241, 243);
+        text-align: center;
+        padding: 1% 0% 0%;
+        margin: 0%;
+    }
 }
