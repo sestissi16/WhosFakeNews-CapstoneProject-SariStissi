@@ -1,0 +1,35 @@
+#optionsPageContainer{
+    display: flex;
+    height: 100%;
+}
+
+#optionsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#optionsHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 1%;
+    background-color: rgb(188, 255, 161);
+}
+
+#optionsBody {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#optionsBodyContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
-import { Divider } from 'semantic-ui-react'
 import Image from 'react-bootstrap/Image'
 import HomepageImage from '../../Media/CS488-MicrophoneCartoonOfNews-Cropped.png'
 // import FakeNewsImage from '../../Media/CS488-smallFreeFakeNewsImage.jpg'
@@ -41,7 +40,10 @@ const Home = props => (
                 <Button href="/About" variant="danger" id="LearnButton">Learn More</Button>
               </div>
               <div id="homeBodyGetStartedOptionsResources">
-                <p>Placeholder Resources text.</p>
+                <h5 id="homeBodyGetStartedOptionsLearnText">
+                  <strong>Look at Tutorials for the site, the FAQ, or Links to Similar Projects</strong>
+                </h5>
+                <Button href="/About" variant="danger" id="LearnButton">Learn More</Button>
               </div> 
               <div id="homeBodyGetStartedOptionsMethods">
                 <p>Placeholder Methods text.</p>
