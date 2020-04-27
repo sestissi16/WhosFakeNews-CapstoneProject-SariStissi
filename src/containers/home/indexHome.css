@@ -54,7 +54,7 @@
     align-items: center;
     background-color: rgba(33, 41, 92, 0.925);
     color: #FFFBFC;
-    height: 35%;
+    min-height: fit-content(35%);
     width: 100%;
 }
 
@@ -77,7 +77,7 @@
 }
 
 #homeBodyTopImage {
-    height: 65%;
+    min-height: fit-content(65%);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -92,11 +92,11 @@
 }
 
 #homeBodyGetStarted {
-    /* padding: 2% 0% 0%; */
+    padding: 2% 0%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 60%;
+    min-height: fit-content(60%);
     width: 95%;
 }
 
@@ -135,7 +135,7 @@
     text-align: center;
     background-color: rgba(219, 84, 98, 0.466);
     border-right: solid 0.4em #AD343E;
-    height: 100%;
+    /* height: 100%; */
     width: 25%;
     padding: 1% 1%;
     color: #000000;
@@ -154,7 +154,7 @@
     text-align: center;
     background-color: rgba(62, 92, 118, 0.466);
     border-right: solid 0.4em #3E5C76;
-    height: 100%;
+    /* height: 100%; */
     width: 25%;
     padding: 1% 1%;
     color: #000000;
@@ -169,7 +169,7 @@
     text-align: center;
     background-color: rgba(219, 84, 98, 0.466);
     border-right: solid 0.4em #AD343E;
-    height: 100%;
+    /* height: 100%; */
     width: 25%;
     padding: 1% 1%;
     color: #000000;
@@ -184,11 +184,66 @@
     text-align: center;
     background-color: rgba(62, 92, 118, 0.466);
     border-right: solid 0.4em #3E5C76;
-    height: 100%;
+    /* height: 100%; */
     width: 25%;
     padding: 1% 1%;
     color: #000000;
     margin-right: 1.2%;
+}
+
+#homeBodyBenefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #49111C;
+    width: 100%;
+    min-height: fit-content(40%);
+    padding: 2% 0% 0%;
+}
+
+#homeBodyBenefitsTitleText {
+    color: #FFFBFC;
+}
+
+#homeBodyBenefitsContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content(40%);
+    padding: 2.2% 0% 1%;
+}
+
+#homeBodyBenefitsContentImage {
+    min-height: fit-content(65%);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid #F1A1AA 0.2em;
+}
+
+#homeBodyBenefitsCrossroadsImage {
+    width: 70%;
+    height: 90%;
+}
+
+#homeBodyBenefitsContentList{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color: #FFFBFC;
+    padding: 0% 2%;
+}
+
+#homeBodyBenefitsContentListText{
+    font-size: 1.5em;
+}
+
+.homeBodyBenefitsListText {
+    padding: 0% 0% 3%;
 }
 
 @media (max-width:445px){
@@ -237,6 +292,7 @@
     #homeBodyGetStartedWaysText {
         font-size: 1.3em !important;
     }
+    
 }
 
 @media (max-width:768px) {
@@ -287,7 +343,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        height: 80%;
+        min-height: fit-content(80%);
         width: 100%;
     }
     #homeBodyGetStartedTagline {
@@ -341,6 +397,14 @@
         padding: 1% 1.5% 2%;
         color: #000000;
     }
+    #homeBodyBenefits {
+        margin: 1.5% 0% 0%
+    }
+    #homeBodyBenefitsCrossroadsImage {
+        width: 70%;
+        height: 70%;
+    }
+    
 }
 
 @media (max-width:1023px) {
@@ -401,6 +465,7 @@
 
 @media (max-width:688px){
     /* Needed for the home header for signup to look nice if resized */
+    /* Also needed for the Benefits list to look okay on resized screens below tablet level */
     #homeHeader {
         display: flex;
         flex-direction: column;
@@ -417,5 +482,45 @@
         text-align: center;
         padding: 1% 0% 0%;
         margin: 0%;
+    }
+    #homeBodyBenefitsTitleText {
+        color: #FFFBFC;
+        padding: 0% 1.2% 1%;
+    }
+    #homeBodyBenefitsContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: fit-content(40%);
+        padding: 2.2% 0% 1%;
+    }
+    #homeBodyBenefitsContentImage {
+        min-height: fit-content(30%);
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        border-bottom: solid #F1A1AA 0.2em;
+        border-right: none;
+        padding: 0% 0% 2%;
+    }
+    #homeBodyBenefitsCrossroadsImage {
+        width: 50%;
+        height: 50%;
+    }
+    #homeBodyBenefitsContentList{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #FFFBFC;
+        padding: 0% 2%;
+    }
+    #homeBodyBenefitsContentListText{
+        font-size: 1.3em;
+    }
+    .homeBodyBenefitsListText {
+        padding: 2% 0% 3%;
     }
 }

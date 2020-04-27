@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'
 import HomepageImage from '../../Media/CS488-MicrophoneCartoonOfNews-Cropped.png'
+import CrossroadsImage from '../../Media/CS488-road-sign-before-the-confused-business-woman.png'
 // import FakeNewsImage from '../../Media/CS488-smallFreeFakeNewsImage.jpg'
 // import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-120x120.png'
 import './indexHome.css'
@@ -19,7 +20,7 @@ const Home = props => (
             <div id="homeBodyText">
               <div id="homeBodyTopTitle">
                 <h1 id="homeBodyTopTitleHeader">
-                  Don't know if you can trust what read these days?
+                  <strong>Don't know if you can trust what read these days?</strong>
                 </h1>
               </div>
             </div>
@@ -29,8 +30,12 @@ const Home = props => (
           </div>
           <div id="homeBodyGetStarted">
             <div id="homeBodyGetStartedTagline">
-              <h2 id="homeBodyGetStartedTaglineText">We have three different ways of finding fake news for you!</h2>
-              <h3 id="homeBodyGetStartedWaysText">Here are four ways you can get started:</h3>
+              <h2 id="homeBodyGetStartedTaglineText">
+                Who's Fake News helps you find and track what news you can or can't trust
+              </h2>
+              <h3 id="homeBodyGetStartedWaysText">
+                Here are four ways you can get started:
+              </h3>
             </div>
             <div id="homeBodyGetStartedOptions">
               <div id="homeBodyGetStartedOptionsLearn">
@@ -56,6 +61,26 @@ const Home = props => (
                   <strong>Sign up for personalized fake news results</strong>
                 </h5>
                 <Button href="/SignUp" variant="danger" id="SignUpButton">Sign Up</Button>
+              </div>
+            </div>
+          </div>
+          <div id="homeBodyBenefits">
+            <div id="homeBodyBenefitsTitle">
+              <h2 id="homeBodyBenefitsTitleText">
+                Here's what Who's Fake News can do for you
+              </h2>
+            </div>
+            <div id="homeBodyBenefitsContent">
+              <div id="homeBodyBenefitsContentImage">
+                <img id="homeBodyBenefitsCrossroadsImage" src={CrossroadsImage} alt="cartoon image of a woman confused infront of directional signs" fluid/>
+              </div>
+              <div id="homeBodyBenefitsContentList">
+                <ul id="homeBodyBenefitsContentListText">
+                  <li class="homeBodyBenefitsListText">Help you make informed decisions</li>
+                  <li class="homeBodyBenefitsListText">Help you find fake news faster</li>
+                  <li class="homeBodyBenefitsListText">Alert you when we find fake news while you're away from your computer</li>
+                  <li class="homeBodyBenefitsListText">Alert you as you are browsing if you have stumbled upon a site that has fake news</li>
+                </ul>
               </div>
             </div>
           </div>
