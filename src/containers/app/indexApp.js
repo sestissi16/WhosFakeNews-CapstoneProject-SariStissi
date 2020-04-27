@@ -16,6 +16,7 @@ import About from '../about/indexAbout'
 import Resources from '../resources/indexResources'
 import Options from '../options/indexOptions'
 import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-NoTitle-30x30png.png'
+import LargerLogo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-120x120.png'
 import { FaRegNewspaper, FaRegQuestionCircle } from 'react-icons/fa'
 import './indexApp.css'
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
@@ -77,6 +78,22 @@ const App = () => (
         <Route exact path="/Resources/MoreResources" component={MoreResources}/>
         <Route exact path="/Resources/Tutorials" component={Tutorials}/>
     </Router>
+
+    <div id="footer">
+      <div id="footerImage">
+        <img
+          alt="Who's Fake News Logo"
+          src={LargerLogo}
+          id="footerLogo"
+          className="d-inline-block align-center"
+        />
+      </div>
+      <div id="footerTitle">
+        <h4 id="footerTitleName">Who's Fake News?</h4>
+        <h5 id="footerTitleBy">Project by Sari Stissi</h5>
+      </div>
+      
+    </div>
   </div>
 )
 

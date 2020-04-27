@@ -1,6 +1,6 @@
 #homePageContainer {
     display: flex;
-    height: 100%;
+    height: fit-content(100%);
 }
 
 #homeContent {

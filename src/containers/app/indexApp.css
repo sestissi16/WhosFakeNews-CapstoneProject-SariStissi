@@ -8,3 +8,33 @@
 #navLogin, #navSignUp {
     margin-right: 1%;
 }
+
+#footer {
+    background-color: #343A40;
+    color: #FFFBFC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content(30%);
+}
+
+#footerImage {
+    min-height: fit-content(100%);
+    /* width: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+#footerLogo {
+    /* padding: 5% 0%; */
+    height: 5rem;
+    width: 5rem;
+}
+
+#footerTitle {
+    display: flex;
+    flex-direction: column;
+}
