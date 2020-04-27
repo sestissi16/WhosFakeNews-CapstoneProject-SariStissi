@@ -29,7 +29,7 @@ const Home = props => (
           </div>
           <div id="homeBodyGetStarted">
             <div id="homeBodyGetStartedTagline">
-              <h2 id="homeBodyGetStartedTaglineText">We're here to help you find fake news!</h2>
+              <h2 id="homeBodyGetStartedTaglineText">We have three different ways of finding fake news for you!</h2>
               <h3 id="homeBodyGetStartedWaysText">Here are some ways you can get started:</h3>
             </div>
             <div id="homeBodyGetStartedOptions">
