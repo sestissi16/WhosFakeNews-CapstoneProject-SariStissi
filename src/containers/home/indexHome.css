@@ -102,7 +102,7 @@
 
 #homeBodyGetStartedTagline {
     min-height: fit-content(35%);
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,6 +123,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     height: fit-content(60%);
+    padding: 0% 0% 1.5%;
     /* overflow: hidden; */
 }
 
@@ -262,6 +263,7 @@
         width: 100%;
     }
     #homeBodyGetStartedTagline {
+        padding: 0% 0% 1.5%;
         min-height: fit-content(35%);
         /* overflow: hidden; */
         display: flex;
