@@ -12,6 +12,7 @@ import Feedback from '../feedback/indexFeeback'
 import PastResults from '../pastResults/indexPastResults'
 import MoreResources from '../moreResources/indexMoreResources'
 import Tutorials from '../tutorials/indexTutorials'
+import About from '../about/indexAbout'
 import Logo from '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-NoTitle-30x30png.png'
 import { FaRegNewspaper, FaRegQuestionCircle } from 'react-icons/fa'
 import './indexApp.css'
@@ -34,6 +35,7 @@ const App = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav variant="pills" className="mr-auto">
+          <Nav.Link href="/About">About</Nav.Link>
           <NavDropdown title="Detection Options" id="collasible-nav-dropdown">
             <NavDropdown.Item href="/Options/Upload">Upload</NavDropdown.Item>
             <NavDropdown.Item href="/Options/NewsAlerts">News Alerts</NavDropdown.Item>
@@ -56,6 +58,7 @@ const App = () => (
 
     <Router>
         <Route exact path="/" component={Home} />
+        <Route exact path="/About" component={About} />
         <Route exact path="/Options/Upload" component={Upload} />
         <Route exact path="/Options/NewsAlerts" component={NewsAlerts} />
         <Route exact path="/Login" component={Login} />

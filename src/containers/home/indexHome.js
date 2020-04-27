@@ -35,9 +35,9 @@ const Home = props => (
             </div>
             <div id="homeBodyGetStartedOptions">
               <div id="homeBodyGetStartedOptionsLearn">
-                <p id="homeBodyGetStartedOptionsLearnText">
-                  <strong>To learn more about this project, who created it, and why, click on the button below that says "Learn More".</strong>
-                </p>
+                <h5 id="homeBodyGetStartedOptionsLearnText">
+                  <strong>Learn more about this project, who created it, and why.</strong>
+                </h5>
                 <Button href="/About" variant="danger" id="LearnButton">Learn More</Button>
               </div>
               <div id="homeBodyGetStartedOptionsResources">
