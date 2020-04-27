@@ -18,7 +18,9 @@ const Home = props => (
           <div id="homeBodyTop">
             <div id="homeBodyText">
               <div id="homeBodyTopTitle">
-                <h1 id="homeBodyTopTitleHeader">Welcome to the <br/> Who's Fake News Project!</h1>
+                <h1 id="homeBodyTopTitleHeader">
+                  Don't know if you can trust what read these days?
+                </h1>
               </div>
             </div>
             <div id="homeBodyTopImage">
