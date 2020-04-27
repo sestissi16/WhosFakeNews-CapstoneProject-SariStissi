@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import { Divider } from 'semantic-ui-react'
 import Image from 'react-bootstrap/Image'
 import HomepageImage from '../../Media/CS488-MicrophoneCartoonOfNews-Cropped.png'
 // import FakeNewsImage from '../../Media/CS488-smallFreeFakeNewsImage.jpg'
