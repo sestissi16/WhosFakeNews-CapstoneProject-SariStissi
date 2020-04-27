@@ -30,7 +30,7 @@ const Home = props => (
           <div id="homeBodyGetStarted">
             <div id="homeBodyGetStartedTagline">
               <h2 id="homeBodyGetStartedTaglineText">We have three different ways of finding fake news for you!</h2>
-              <h3 id="homeBodyGetStartedWaysText">Here are some ways you can get started:</h3>
+              <h3 id="homeBodyGetStartedWaysText">Here are four ways you can get started:</h3>
             </div>
             <div id="homeBodyGetStartedOptions">
               <div id="homeBodyGetStartedOptionsLearn">
@@ -43,7 +43,7 @@ const Home = props => (
                 <h5 id="homeBodyGetStartedOptionsLearnText">
                   <strong>Look at Tutorials for the site, the FAQ, or Links to Similar Projects</strong>
                 </h5>
-                <Button href="/About" variant="danger" id="LearnButton">Learn More</Button>
+                <Button href="/Resources" variant="danger" id="LearnButton">Resources</Button>
               </div> 
               <div id="homeBodyGetStartedOptionsMethods">
                 <p>Placeholder Methods text.</p>
