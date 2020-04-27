@@ -130,7 +130,7 @@
 #homeBodyGetStartedOptionsLearn {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     background-color: rgba(219, 84, 98, 0.466);
@@ -149,7 +149,7 @@
 #homeBodyGetStartedOptionsResources {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     background-color: rgba(62, 92, 118, 0.466);
@@ -162,19 +162,33 @@
 }
 
 #homeBodyGetStartedOptionsMethods {
-    background-color: #3E5C76;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(219, 84, 98, 0.466);
+    border-right: solid 0.4em #AD343E;
     height: 100%;
     width: 25%;
-    padding: 0% 1%;
-    color: #FFFBFC;
+    padding: 1% 1%;
+    color: #000000;
+    margin-right: 1.2%;
 }
 
 #homeBodyGetStartedOptionsSignUp {
-    background-color: #CFEAED;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(62, 92, 118, 0.466);
+    border-right: solid 0.4em #3E5C76;
     height: 100%;
     width: 25%;
-    padding: 0% 1%;
-    color: black;
+    padding: 1% 1%;
+    color: #000000;
+    margin-right: 1.2%;
 }
 
 @media (max-width:445px){
@@ -294,40 +308,38 @@
     }
     #homeBodyGetStartedOptionsLearn {
         border-bottom: solid 0.2em #AD343E;
-        border-top: solid 0.2em #AD343E;
         border-right: none;
         background-color: rgba(219, 84, 98, 0.623);
         width: 100%;
-        padding: 1% 1.5%;
+        padding: 1% 1.5% 2%;
         color: #000000;
-        margin: 0% 0% 0.4%;
     }
     
     #homeBodyGetStartedOptionsResources {
         background-color: rgba(62, 92, 118, 0.466);
-        border-top: solid 0.2em #3E5C76;
         border-bottom: solid 0.2em #3E5C76;
         border-right: none;
         width: 100%;
-        padding: 1% 1.5%;
+        padding: 1% 1.5% 2%;
         color: #000000;
-        margin: 0% 0% 0.4%;
     }
     
     #homeBodyGetStartedOptionsMethods {
-        background-color: #3E5C76;
+        background-color: rgba(219, 84, 98, 0.466);
+        border-bottom: solid 0.2em #AD343E;
+        border-right: none;
         width: 100%;
-        padding: 0% 1%;
-        color: #FFFBFC;
-        margin: 0% 0% 1%;
+        padding: 1% 1.5% 2%;
+        color: #000000;
     }
     
     #homeBodyGetStartedOptionsSignUp {
-        background-color: #CFEAED;
+        background-color: rgba(62, 92, 118, 0.466);
+        border-bottom: solid 0.2em #3E5C76;
+        border-right: none;
         width: 100%;
-        padding: 0% 1%;
-        color: black;
-        margin: 0% 0% 1%;
+        padding: 1% 1.5% 2%;
+        color: #000000;
     }
 }
 

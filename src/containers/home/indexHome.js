@@ -35,21 +35,27 @@ const Home = props => (
             <div id="homeBodyGetStartedOptions">
               <div id="homeBodyGetStartedOptionsLearn">
                 <h5 id="homeBodyGetStartedOptionsLearnText">
-                  <strong>Learn more about this project, who created it, and why.</strong>
+                  <strong>Learn more about this project, who created it, and why</strong>
                 </h5>
                 <Button href="/About" variant="danger" id="LearnButton">Learn More</Button>
               </div>
               <div id="homeBodyGetStartedOptionsResources">
-                <h5 id="homeBodyGetStartedOptionsLearnText">
+                <h5 id="homeBodyGetStartedOptionsResourcesText">
                   <strong>Look at Tutorials for the site, the FAQ, or Links to Similar Projects</strong>
                 </h5>
-                <Button href="/Resources" variant="danger" id="LearnButton">Resources</Button>
+                <Button href="/Resources" variant="danger" id="ResourceButton">Resources</Button>
               </div> 
               <div id="homeBodyGetStartedOptionsMethods">
-                <p>Placeholder Methods text.</p>
+                <h5 id="homeBodyGetStartedOptionsMethodsText">
+                  <strong>Look at the three different ways we help you find fake news</strong>
+                </h5>
+                <Button href="/Options" variant="danger" id="OptionsButton">Options</Button>
               </div>
               <div id="homeBodyGetStartedOptionsSignUp">
-                <p>Placeholder Sign Up text.</p>
+                <h5 id="homeBodyGetStartedOptionsSignUpText">
+                  <strong>Sign up for personalized fake news results</strong>
+                </h5>
+                <Button href="/SignUp" variant="danger" id="SignUpButton">Sign Up</Button>
               </div>
             </div>
           </div>
