@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import AuthorImage from '../../Media/MeAtAcropolis.jpg'
 import './indexAbout.css'
 
@@ -21,7 +22,15 @@ const About = () => (
                                 <h2>Creator of this project</h2>
                             </div>
                             <div id="aboutBodyAuthorProfileBio">
-                                <p>More info about me and the capstone project</p>
+                                <p>This project started as my final capstone project for the Department of Computer Science at Earlham College. 
+                                    I wanted to do something that would help people and so all my preliminary ideas focused on social good. 
+                                    I chose to create a website and extension to find fake news in the media because it is an important current issue. 
+                                    The news shapes public policy, elections, the stock market/economy, and more in our lives. 
+                                    No one is above the harm of fake news, so I wanted to help. 
+                                    There are many researchers that tried to find solutions to fake news but their work is not accessible to everyone. 
+                                    If people with disabilities or who don't know a lot of English can't use the tool, they will be vulnerable to fake news. 
+                                    So this project focuses on stopping the spread of fake news and making it as accessible as possible.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -56,6 +65,16 @@ const About = () => (
                                     </ul>
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div id="aboutBodyContribute">
+                        <div id="aboutBodyContributeTitle">
+                            <h2>Do you want to help contribute to the project?</h2>
+                        </div>
+                        <div id="aboutBodyContributeInstructions">
+                            <p>
+                                Go to the <Button href="/Resources/Feedback" variant="outline-danger">Feedback Page</Button> and write "Contributing to the Project" in the subject line and let us know how you'd like to help.
+                            </p>
                         </div>
                     </div>
                 </div>
