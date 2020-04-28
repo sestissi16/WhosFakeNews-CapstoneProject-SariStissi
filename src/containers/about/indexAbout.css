@@ -58,6 +58,7 @@
     height: 70%;
     width: 70%;
     border-radius: 50%;
+    box-shadow: 0 2px 8px 0 rgba(33, 36, 58, 0.428), 0 6px 20px 0 rgba(27, 31, 56, 0.438);
 }
 
 #aboutBodyAuthorProfile {
@@ -74,4 +75,136 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+#aboutBodyMissionVision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: fit-content(45%);
+    background-color: #A9CEF4;
+    padding: 2% 2%;
+}
+
+#aboutBodyMissionVisionTitle {
+    padding: 0% 0% 1.5%;
+    width: 90%;
+    border-bottom: solid 0.3em #21295C;
+    border-radius: 10%;
+}
+
+#aboutBodyMissionSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content(50%);
+    padding: 1.6% 0% 0%;
+}
+
+#aboutBodyMissionText {
+    padding: 1% 1.5%;
+    font-size: 1.2em;
+}
+
+#aboutBodyVisionSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content(50%);
+    padding: 1.6% 0% 1%;
+}
+
+#aboutBodyVisionText {
+    padding: 1% 1.5% 0%;
+    font-size: 1.2em;
+}
+
+.aboutBodyVisionListItems {
+    padding: 1.3% 0% 0%;
+}
+
+@media (max-width:445px) {
+    /* Changes for Mobile view */
+    #aboutBodyMissionSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: fit-content(50%);
+        padding: 2% 0% 0%;
+    }
+    
+    #aboutBodyMissionText {
+        padding: 1.3% 1.5%;
+    }
+    
+    #aboutBodyVisionSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: fit-content(50%);
+        padding: 2% 0%;
+    }
+    
+    #aboutBodyVisionText {
+        padding: 1.3% 1.5%;
+    }
+}
+
+@media (max-width:768px) {
+    /* Changes for Tablet view */
+    #aboutBodyAuthor {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: fit-content(35%);
+        padding: 2% 1%;
+    }
+    #aboutBodyAuthorPicture {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content(30%);
+    }
+    #aboutBodyAuthorImage {
+        height: 40%;
+        width: 40%;
+        border-radius: 50%;
+    }
+    #aboutBodyAuthorProfile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content(70%);
+    }
+    #aboutBodyAuthorProfileTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:1023px) {
+    /* Changes for Laptop view */
 }
