@@ -98,3 +98,15 @@
     color: #FFFBFC;
     border-right: solid 0.3em #A9CEF4;
 }
+
+@media (max-width:445px) {
+    /* Changes for Mobile view */
+}
+
+@media (max-width:768px) {
+    /* Changes for Tablet view */
+}
+
+@media (max-width:1023px) {
+    /* Changes for Laptop view */
+}
