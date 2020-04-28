@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import './indexOptions.css'
 
 
@@ -16,7 +17,9 @@ const Options = () => (
                         </div>
                         <div id="optionsBodyDescriptionsInfo">
                             <div id="optionsBodyDescriptInfoUploads">
-                                <p>Info about uploads</p>
+                                <h5>Uploads</h5>
+                                <p>Where you can upload files or paste URL links and we'll check them for fake news</p>
+                                <Button href="/Options/Uploads" variant="light" id="OptionsUploadButton">Go to Uploads</Button>
                             </div>
                             <div id="optionsBodyDescriptInfoAlerts">
                                 <p>Info about News Alerts</p>
