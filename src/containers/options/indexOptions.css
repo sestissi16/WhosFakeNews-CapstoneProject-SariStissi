@@ -54,6 +54,7 @@
     align-content: center;
     width: 100%;
     height: fit-content(60%);
+    padding: 2% 0% 0%;
 }
 
 #optionsBodyDescriptInfoUploads {
@@ -67,6 +68,7 @@
     margin: 0% 2% 0% 0.5%;
     background-color: #9B112B;
     color: #FFFBFC;
+    border-right: solid 0.3em #A9CEF4;
 }
 
 #optionsBodyDescriptInfoAlerts {
@@ -80,6 +82,7 @@
     margin: 0% 2% 0% 0.5%;
     background-color: #6D3D47;
     color: #FFFBFC;
+    border-right: solid 0.3em #A9CEF4;
 }
 
 #optionsBodyDescriptInfoExtension {
@@ -93,4 +96,5 @@
     margin: 0% 2% 0% 0.5%;
     background-color: #70292F;
     color: #FFFBFC;
+    border-right: solid 0.3em #A9CEF4;
 }
