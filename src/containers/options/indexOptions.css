@@ -1,13 +1,13 @@
 #optionsPageContainer{
     display: flex;
-    height: 100%;
+    height: fit-content(100%);
 }
 
 #optionsContent {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100%;
+    height: fit-content(100%);
     width: 100%;
     flex-grow: 1;
 }
@@ -17,7 +17,8 @@
     justify-content: center;
     width: 100%;
     padding: 2% 1%;
-    background-color: rgb(188, 255, 161);
+    background-color: #49111C;
+    color: #FFFBFC;
 }
 
 #optionsBody {
@@ -32,4 +33,25 @@
     flex-direction: column;
     flex-grow: 1;
     width: 100%;
+}
+
+#optionsBodyDescriptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: fit-content(60%);
+    padding: 2% 2%;
+}
+
+#optionsBodyDescriptionsInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    height: fit-content(60%);
 }
