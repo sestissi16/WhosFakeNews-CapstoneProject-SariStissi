@@ -69,7 +69,7 @@
     padding: 2%;
     background-color: #9B112B;
     color: #FFFBFC;
-    border-right: solid 0.3em #A9CEF4;
+    border-right: solid 0.4em #A9CEF4;
 }
 
 #optionsBodyDescriptInfoAlerts {
@@ -81,9 +81,10 @@
     width: 33%;
     height: 100%;
     margin: 0% 2% 0% 0.5%;
+    padding: 2%;
     background-color: #6D3D47;
     color: #FFFBFC;
-    border-right: solid 0.3em #A9CEF4;
+    border-right: solid 0.4em #A9CEF4;
 }
 
 #optionsBodyDescriptInfoExtension {
@@ -97,7 +98,7 @@
     margin: 0% 2% 0% 0.5%;
     background-color: #70292F;
     color: #FFFBFC;
-    border-right: solid 0.3em #A9CEF4;
+    border-right: solid 0.4em #A9CEF4;
 }
 
 @media (max-width:445px) {
