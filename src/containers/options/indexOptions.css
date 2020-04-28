@@ -52,6 +52,45 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 90%;
+    width: 100%;
     height: fit-content(60%);
+}
+
+#optionsBodyDescriptInfoUploads {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    margin: 0% 2% 0% 0.5%;
+    background-color: #9B112B;
+    color: #FFFBFC;
+}
+
+#optionsBodyDescriptInfoAlerts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    margin: 0% 2% 0% 0.5%;
+    background-color: #6D3D47;
+    color: #FFFBFC;
+}
+
+#optionsBodyDescriptInfoExtension {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    margin: 0% 2% 0% 0.5%;
+    background-color: #70292F;
+    color: #FFFBFC;
 }
