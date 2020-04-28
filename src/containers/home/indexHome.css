@@ -234,6 +234,7 @@
     width: 60%;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #FFFBFC;
     padding: 0% 2%;
 }
@@ -244,6 +245,11 @@
 
 .homeBodyBenefitsListText {
     padding: 0% 0% 3%;
+}
+
+#homeBodyBenefitsNoteText {
+    color: #FFFBFC;
+    padding: 2% 1%;
 }
 
 @media (max-width:445px){

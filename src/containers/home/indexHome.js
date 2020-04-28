@@ -67,7 +67,7 @@ const Home = props => (
           <div id="homeBodyBenefits">
             <div id="homeBodyBenefitsTitle">
               <h2 id="homeBodyBenefitsTitleText">
-                Here's what Who's Fake News can do for you
+                Here's what Who's Fake News can do for you:
               </h2>
             </div>
             <div id="homeBodyBenefitsContent">
@@ -82,6 +82,11 @@ const Home = props => (
                   <li class="homeBodyBenefitsListText">Alert you as you are browsing if you have stumbled upon a site that has fake news</li>
                 </ul>
               </div>
+            </div>
+            <div id="homeBodyBenefitsNote">
+              <h2 id="homeBodyBenefitsNoteText">
+                <strong>And best of all it's all free!</strong>
+              </h2>
             </div>
           </div>
         </div>
