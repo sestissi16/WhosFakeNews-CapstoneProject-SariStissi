@@ -13,7 +13,7 @@ const Options = () => (
                 <div id="optionsBodyContent">
                     <div id="optionsBodyDescriptions">
                         <div id="optionsBodyDescriptionsTitle">
-                            <h2>We explain each of the ways we help you find fake news below:</h2>
+                            <h1>We explain each of the ways we help you find fake news below:</h1>
                         </div>
                         <div id="optionsBodyDescriptionsInfo">
                             <div id="optionsBodyDescriptInfoUploads">
@@ -37,7 +37,35 @@ const Options = () => (
                             </div>
                         </div>
                         <div id="optionsBodyDescriptionsNotice">
-
+                            <div id="optionsBodyNoticeFree">
+                                <h4 id="optinosBodyNotice1"><strong>Note 1:</strong></h4>
+                                <div id="optionsBodyNotice1Text">
+                                    <h3 id="optionsBodyNoticeFreeTitle">
+                                        Everything is free!<br />
+                                        But to be able to notify you, you need to sign-up or log in to use the news alerts.
+                                    </h3>
+                                    <p class="optionsBodyNoticeText">
+                                        The sign-up process is very simple and requires no payment information. 
+                                        You will only need a username, email address, and a password.
+                                        <br/><br/>
+                                        There's a sign-up button on the top right of the navigation bar or you can 
+                                        click <Button variant="danger">here</Button>.
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="optionsBodyNoticeNotFinished">
+                                <h4 id="optinosBodyNotice2"><strong>Note 2:</strong></h4>
+                                <div id="optionsBodyNotice2Text">
+                                    <h3 id="optionsBodyNoticeNotFinishedTitle">
+                                        Not everything is working as of 04/30/2020
+                                    </h3>
+                                    <p class="optionsBodyNoticeText">
+                                        Now, only some websites and uploads will return results for you. 
+                                        Other websites and uploads will return what a result would look like in the future with more updates. 
+                                        This project is still in progress and updates will be coming soon. 
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
