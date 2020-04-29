@@ -17,7 +17,8 @@
     justify-content: center;
     width: 100%;
     padding: 2% 1%;
-    background-color: rgb(253, 255, 161);
+    background-color: #F6808E;
+    color: black;
 }
 
 #uploadBody {
@@ -34,34 +35,16 @@
     width: 100%;
 }
 
-#uploadLeftSideBar, #uploadRightSideBar {
-    width: 8%;
-    background-color: rgb(250, 235, 31);
-    height: 100%;
+#uploadBodyInstructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content(100%);
 }
 
-@media (max-width:544px){
-    #uploadLeftSideBar, #uploadRightSideBar {
-        display: none;
-    }
-}
-
-@media (max-width:830px){
-    #uploadRightSideBar {
-        display: none;
-    }
-
-    #uploadLeftSideBar {
-        width: 7%;
-    }
-}
-
-@media (max-width:715px){
-    #uploadRightSideBar {
-        display: none;
-    }
-
-    #uploadLeftSideBar {
-        width: 4.5%;
-    }
+#uploadInstructionsTitle {
+    padding: 2% 1%;
 }
