@@ -17,8 +17,9 @@
     justify-content: center;
     width: 100%;
     padding: 2% 1%;
-    background-color: #252435;
-    color: #FFFBFC;
+    /* background-color: #252435; */
+    background-color: #A4CBD0;
+    color: #000000;
 }
 
 #optionsBody {
@@ -71,7 +72,7 @@
     height: 100%;
     margin: 0% 2% 0% 2%;
     padding: 2%;
-    background-color: #9B112B;
+    background-color: #35536D;
     color: #FFFBFC;
     border-right: solid 0.4em #A9CEF4;
 }
@@ -129,8 +130,8 @@
     min-height: fit-content(60%);
     margin: 2% 0% 0%;
     padding: 2%;
-    background-color: #98BADF;
-    color: black;
+    background-color: #0B2F4F;
+    color: #FFFBFC;
 }
 
 #optionsBodyNoticeFree {
@@ -151,7 +152,7 @@
 }
 
 #optionsBodyNotice1Text {
-    border-left: solid 0.4em #49111C;
+    border-left: solid 0.4em #FFAED5;
     padding: 0% 0% 0% 2%;
     width: 90%;
     height: 100%;
@@ -160,7 +161,7 @@
 #optionsBodyNoticeFreeTitle {
     text-align: left;
     padding: 0% 0% 0.5% 0%;
-    border-bottom: solid 0.05em #49111C;
+    border-bottom: solid 0.05em #FFAED5;
 }
 
 #optionsBodyNoticeNotFinished {
@@ -181,7 +182,7 @@
 }
 
 #optionsBodyNotice2Text {
-    border-left: solid 0.4em #49111C;
+    border-left: solid 0.4em #FFAED5;
     padding: 0% 0% 0% 2%;
     width: 90%;
     height: 100%;
@@ -190,13 +191,14 @@
 #optionsBodyNoticeNotFinishedTitle {
     text-align: left;
     padding: 0% 0% 0.5% 0%;
-    border-bottom: solid 0.05em #49111C;
+    border-bottom: solid 0.05em #FFAED5;
 }
 
 .optionsBodyNoticeText {
     padding: 1.5% 2% 1%;
     font-size: 1.2em;
     background-color: #CFEAED;
+    color: black;
 }
 
 @media (max-width:445px) {
