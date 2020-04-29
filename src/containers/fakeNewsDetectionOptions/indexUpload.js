@@ -26,7 +26,20 @@ class Upload extends Component {
                         </div>
                         <div id="uploadHowText">
                           <p>
-                            Text explaining how to upload
+                          Below, there are two sections for uploads. 
+                          <br/><br/>
+                          The first section is labeled "Upload a url". 
+                          This is where you can copy and paste a URL to a website with something that you want to check. 
+                          Then you'll click the red upload button.
+                          <br/><br/>
+                          The second section is labeled "Upload a File". 
+                          This is where you can upload a photo, pdf, video, etc. from your own computer that you want to check. 
+                          You can either drag and drop your file from the file explorer or click on "Browse", select a file, and click "Open". 
+                          It will automatically upload the file for you. 
+                          <br/><br/>
+                          You can only upload one thing at a time. 
+                          You can not upload both a url and a file, and you can not upload more than one file. 
+                          In future updates, we'll be sure to add that for you though!
                           </p>
                         </div>
                       </div>
