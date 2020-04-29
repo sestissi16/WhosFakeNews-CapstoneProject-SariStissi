@@ -72,6 +72,7 @@
     border-left: solid 0.2em #49111C;
     width: 80%;
     min-height: fit-content(100%);
+    font-size: 1.2em;
 }
 
 #uploadInstructionsWhat {
@@ -183,6 +184,7 @@
         width: 100%;
         min-height: fit-content(100%);
         text-align: center;
+        
     }
     
     #uploadInstructionsWhat {
