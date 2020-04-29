@@ -47,7 +47,54 @@
 }
 
 #uploadInstructionsTitle {
-    padding: 2% 1%;
+    padding: 2% 1% 0%;
+}
+
+#uploadInstructionsHow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    width: 95%;
+    min-height: fit-content(100%);
+    padding: 1.5% 0%;
+    border-bottom: solid 0.1em #49111C;
+}
+
+#uploadHowLabel {
+    text-align: left;
+    width: 20%;
+}
+
+#uploadHowText {
+    padding: 0% 0% 0% 3%;
+    border-left: solid 0.2em #49111C;
+    width: 80%;
+    min-height: fit-content(100%);
+}
+
+#uploadInstructionsWhat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    width: 95%;
+    min-height: fit-content(100%);
+    padding: 1.5% 0%;
+}
+
+#uploadWhatLabel {
+    text-align: left;
+    width: 20%;
+}
+
+#uploadWhatText {
+    padding: 0% 0% 0% 3%;
+    border-left: solid 0.2em #49111C;
+    width: 80%;
+    min-height: fit-content(100%);
 }
 
 #uploadBodyForm {
@@ -60,6 +107,13 @@
     padding: 2% 1%;
     background-color: #274764;
     color: #FFFBFC;
+}
+
+#uploadBodyFormLabel {
+    width: 80%;
+    padding: 0% 0% 1.5% 0%;
+    border-bottom: solid 0.1em #DEFCFF;
+    border-radius: 10%;
 }
 
 #uploadBodyFormWrapper{
@@ -96,4 +150,68 @@
 
 .filepond--drop-label {
     color: #FFFBFC;
+}
+
+@media (max-width:445px) {
+    /* Changes for Mobile view */
+}
+
+@media (max-width:768px) {
+    /* Changes for Tablet view */
+    #uploadInstructionsHow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+        width: 95%;
+        min-height: fit-content(100%);
+        padding: 2% 0%;
+        border-bottom: solid 0.1em #49111C;
+    }
+    
+    #uploadHowLabel {
+        text-align: left;
+        width: 100%;
+        padding: 0% 0% 1.5%;
+    }
+    
+    #uploadHowText {
+        padding: 2% 0% 0%;
+        border-top: solid 0.2em #49111C;
+        border-left: none;
+        width: 100%;
+        min-height: fit-content(100%);
+        text-align: center;
+    }
+    
+    #uploadInstructionsWhat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+        width: 95%;
+        min-height: fit-content(100%);
+        padding: 2% 0%;
+    }
+    
+    #uploadWhatLabel {
+        text-align: left;
+        width: 100%;
+        padding: 0% 0% 1.5%;
+    }
+    
+    #uploadWhatText {
+        padding: 2% 0% 0%;
+        border-top: solid 0.2em #49111C;
+        border-left: none;
+        width: 100%;
+        min-height: fit-content(100%);
+        text-align: center;
+    }
+}
+
+@media (max-width:1023px) {
+    /* Changes for Laptop view */
 }

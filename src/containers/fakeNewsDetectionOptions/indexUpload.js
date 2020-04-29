@@ -20,12 +20,29 @@ class Upload extends Component {
                 <div id="uploadBodyContent">
                     <div id="uploadBodyInstructions">
                       <h1 id="uploadInstructionsTitle">How and what to upload to check for fake news:</h1>
-                      <p>
-                        
-                      </p>
+                      <div id="uploadInstructionsHow">
+                        <div id="uploadHowLabel">
+                          <h3>How to upload:</h3>
+                        </div>
+                        <div id="uploadHowText">
+                          <p>
+                            Text explaining how to upload
+                          </p>
+                        </div>
+                      </div>
+                      <div id="uploadInstructionsWhat">
+                        <div id="uploadWhatLabel">
+                          <h3>What to upload:</h3>
+                        </div>
+                        <div id="uploadWhatText">
+                          <p>
+                            Text explaining What to upload
+                          </p>
+                        </div>
+                      </div>
                     </div>
                     <div id="uploadBodyForm">
-                      <h3 id="uploadBodyFormLabel">Upload your news below</h3>
+                      <h2 id="uploadBodyFormLabel">Upload your news below</h2>
                       <Form id="uploadBodyFormWrapper">
                         <Form.Group as={Col} md="8" controlId="urlUpload">
                           <Form.Label id="urlUploadLabel">Upload a url</Form.Label>
