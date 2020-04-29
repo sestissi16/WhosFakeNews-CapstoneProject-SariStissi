@@ -48,3 +48,15 @@
 #uploadInstructionsTitle {
     padding: 2% 1%;
 }
+
+.filepond--root {
+    font-family: "Inconsolata", monospace;
+}
+
+.filepond--panel-root {
+    background-color: #CFEAED;
+}
+
+.filepond--drop-label {
+    color: #49111C;
+}
