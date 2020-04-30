@@ -246,6 +246,25 @@
 
 @media (max-width:445px) {
     /* Changes for Mobile view */
+    #uploadResultsBinaryOrPercent {
+        flex-direction: column;
+    }
+
+    #uploadResultsBinary {
+        width: 100%;
+        min-height: fit-content(100%);
+        background-color: #CFEAED;
+        padding: 1% 1% 1% 1%;
+        border-bottom: solid 0.1em #49111C;
+        border-right: none;
+    }
+    
+    #uploadResultsPercent {
+        width: 100%;
+        min-height: fit-content(100%);
+        background-color: #CFEAED;
+        padding: 1% 1% 1% 1%;
+    }
 }
 
 @media (max-width:768px) {
@@ -302,6 +321,10 @@
         width: 100%;
         min-height: fit-content(100%);
         text-align: center;
+    }
+
+    #uploadResultsContainer {
+        width: 90%;
     }
 }
 
