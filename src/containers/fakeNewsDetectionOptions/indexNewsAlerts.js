@@ -3,7 +3,6 @@ import './indexNewsAlerts.css'
 
 const NewsAlerts = () => (
     <div id="newsAlertsPageContainer">
-        <div id="newsAlertsLeftSideBar"></div>
         <div id="newsAlertsContent">
             <div id="newsAlertsHeader">
                 <h1>News Alerts Page</h1>
@@ -15,7 +14,6 @@ const NewsAlerts = () => (
                 </p>
             </div>
         </div>
-        <div id="newsAlertsRightSideBar"></div>
     </div>
 )
 
