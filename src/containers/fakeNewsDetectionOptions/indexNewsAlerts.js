@@ -5,7 +5,7 @@ const NewsAlerts = () => (
     <div id="newsAlertsPageContainer">
         <div id="newsAlertsContent">
             <div id="newsAlertsHeader">
-                <h1>News Alerts Page</h1>
+                <h3>Get News Alerts with Fake News Results even when you're away!</h3>
             </div>
             <div id="newsAlertsBody">
                 <p>
