@@ -56,7 +56,7 @@ class Upload extends Component {
                             <li>
                               What types of files you can upload:
                               <ul>
-                                <li> .pdf, .png, .jpeg, .mp4, .doc, .odt </li>
+                                <li> .pdf, .png, .jpeg, .mp4, .odt </li>
                               </ul>
                             </li>
                           </ul>
@@ -92,14 +92,30 @@ class Upload extends Component {
                           <Form.Label id="fileUploadLabel">Upload a file</Form.Label>
                           <FilePond
                             allowFileTypeValidation={true}
-                            acceptedFileTypes={['application/* doc','image/*','video/*']}
+                            acceptedFileTypes={['video/*', 'image/*', 'application/*', 'application/* doc']}
                             labelFileTypeNotAllowed={'Sorry, this file type is not accepted yet'}
                           />
                         </Form.Group>
                       </Form>
                     </div>
                     <div id="uploadBodyResults">
-
+                      <h2 id="uploadResultsTitle">Fake News Results:</h2>
+                      <div id="uploadResultsContainer">
+                        <div id="uploadResultsName">
+                          <p>Here is the title of what you uploaded</p>
+                        </div>
+                        <div id="uploadResultsBinaryOrPercent">
+                          <div id="uploadResultsBinary">
+                            <p>Here is our determination of whether it's credible or not</p>
+                          </div>
+                          <div id="uploadResultsPercent">
+                            <p>Here is the percentage of how credible/truthful this is</p>
+                          </div>
+                        </div>
+                        <div id="uploadResultsDetails">
+                          <p>Here's the detail explanation of the results</p>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>

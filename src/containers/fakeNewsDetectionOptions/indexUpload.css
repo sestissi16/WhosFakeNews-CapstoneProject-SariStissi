@@ -176,7 +176,69 @@
     color: #FFFBFC;
 }
 
+#uploadBodyResults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content(60%);
+    padding: 1% 1%;
+}
 
+#uploadResultsTitle {
+    padding: 1% 0%;
+}
+
+#uploadResultsContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    height: fit-content(100%);
+    border: solid 0.3em #49111C;
+}
+
+#uploadResultsName {
+    width: 100%;
+    min-height: 15%;
+    background-color: #CFEAED;
+    padding: 1%;
+    border-bottom: solid 0.1em #49111C;
+}
+
+#uploadResultsBinaryOrPercent {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 35%;
+    border-bottom: solid 0.1em #49111C;
+}
+
+#uploadResultsBinary {
+    width: 50%;
+    min-height: fit-content(100%);
+    background-color: #CFEAED;
+    padding: 1% 0% 1% 1%;
+    border-right: solid 0.1em #49111C;
+}
+
+#uploadResultsPercent {
+    width: 50%;
+    min-height: fit-content(100%);
+    background-color: #CFEAED;
+    padding: 1% 1% 1% 1%;
+}
+
+#uploadResultsDetails {
+    width: 100%;
+    min-height: 50%;
+    background-color: #CFEAED;
+    padding: 1%;
+}
 
 @media (max-width:445px) {
     /* Changes for Mobile view */
