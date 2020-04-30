@@ -109,6 +109,18 @@
     font-size: 1.2em;
 }
 
+#uploadButtonToTutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 95%;
+    height: fit-content(100%);
+    text-align: center;
+    padding: 1.5% 1%;
+}
+
 #uploadBodyForm {
     display: flex;
     flex-direction: column;
@@ -163,6 +175,8 @@
 .filepond--drop-label {
     color: #FFFBFC;
 }
+
+
 
 @media (max-width:445px) {
     /* Changes for Mobile view */

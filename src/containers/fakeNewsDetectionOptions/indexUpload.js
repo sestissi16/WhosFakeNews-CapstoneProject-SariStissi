@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Form, InputGroup, Button, Col } from 'react-bootstrap'
-import { Divider } from 'semantic-ui-react'
 import { FilePond, registerPlugin} from 'react-filepond';
 import FilePondPluginFileValidateType from 'filepond-plugin-file-validate-type';
 import 'filepond/dist/filepond.min.css';
@@ -19,7 +18,7 @@ class Upload extends Component {
             <div id="uploadBody">
                 <div id="uploadBodyContent">
                     <div id="uploadBodyInstructions">
-                      <h1 id="uploadInstructionsTitle">How and what to upload to check for fake news:</h1>
+                      <h2 id="uploadInstructionsTitle">How and what to upload to check for fake news:</h2>
                       <div id="uploadInstructionsHow">
                         <div id="uploadHowLabel">
                           <h3>How to upload:</h3>
@@ -63,9 +62,14 @@ class Upload extends Component {
                           </ul>
                         </div>
                       </div>
+                      <div id="uploadButtonToTutorial">
+                        <h4>For more help, go to the Tutorials section. 
+                          You can get there by clicking the button here or in the navigation bar under Resources.</h4>
+                        <Button href="/MoreResources/Tutorials" variant="danger" id="uploadsTutorialButton">Go to Tutorials</Button>
+                      </div>
                     </div>
                     <div id="uploadBodyForm">
-                      <h2 id="uploadBodyFormLabel">Upload your news below</h2>
+                      <h1 id="uploadBodyFormLabel">Upload your news below</h1>
                       <Form id="uploadBodyFormWrapper">
                         <Form.Group as={Col} md="8" controlId="urlUpload">
                           <Form.Label id="urlUploadLabel">Upload a url</Form.Label>
