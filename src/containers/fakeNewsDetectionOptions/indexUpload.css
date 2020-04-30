@@ -240,6 +240,10 @@
     padding: 1%;
 }
 
+#uploadClearAll {
+    padding: 1%;
+}
+
 @media (max-width:445px) {
     /* Changes for Mobile view */
 }

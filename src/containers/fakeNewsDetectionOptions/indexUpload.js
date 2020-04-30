@@ -117,6 +117,9 @@ class Upload extends Component {
                         </div>
                       </div>
                     </div>
+                    <div id="uploadClearAll">
+                      <Button variant="danger" id="uploadsClearButton">Clear and Start Again</Button>                      
+                    </div>
                 </div>
             </div>
         </div>
