@@ -8,10 +8,12 @@ const NewsAlerts = () => (
                 <h3>Get News Alerts with Fake News Results even when you're away!</h3>
             </div>
             <div id="newsAlertsBody">
-                <p>
-                    This is where you can set up news alerts and 
-                    have it checked throught the automatic fake news detector
-                </p>
+                <div id="newsAlertsInfo">
+                    <h2 id="newsAlertsInfoTitle">How does this work?</h2>
+                </div>
+                <div id="newsAlertsSelection">
+                    <h1>Pick the topics to search for and see the results</h1>
+                </div>
             </div>
         </div>
     </div>

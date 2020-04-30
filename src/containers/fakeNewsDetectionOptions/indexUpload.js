@@ -102,18 +102,38 @@ class Upload extends Component {
                       <h2 id="uploadResultsTitle">Fake News Results:</h2>
                       <div id="uploadResultsContainer">
                         <div id="uploadResultsName">
-                          <p>Here is the title of what you uploaded</p>
+                          <div id="uploadResultsNameTitle">
+                            <h5>Upload Name:</h5>
+                          </div>
+                          <div id="uploadResultsNameContent">
+                            <p>Place holder for upload name</p>
+                          </div>
                         </div>
                         <div id="uploadResultsBinaryOrPercent">
                           <div id="uploadResultsBinary">
-                            <p>Here is our determination of whether it's credible or not</p>
+                            <div id="uploadResultsBinaryTitle">
+                              <h5>Real or Fake Result:</h5>
+                            </div>
+                            <div id="uploadResultsBinaryContent">
+                              <p>Placeholder for real or fake result. Coming soon</p>
+                            </div>
                           </div>
                           <div id="uploadResultsPercent">
-                            <p>Here is the percentage of how credible/truthful this is</p>
+                            <div id="uploadResultsPercentTitle">
+                              <h5>Percentage of truthfulness:</h5>
+                            </div>
+                            <div id="uploadResultsPercentContent">
+                              <p>Placeholder for percentage of truthfulness.</p>
+                            </div>
                           </div>
                         </div>
                         <div id="uploadResultsDetails">
-                          <p>Here's the detail explanation of the results</p>
+                          <div id="uploadResultsDetailsTitle">
+                            <h5>Details about what parts of the upload were fake:</h5>
+                          </div>
+                          <div id="uploadResultsDetailsContent">
+                            <p>This functionality is coming soon!</p>
+                          </div>
                         </div>
                       </div>
                     </div>
