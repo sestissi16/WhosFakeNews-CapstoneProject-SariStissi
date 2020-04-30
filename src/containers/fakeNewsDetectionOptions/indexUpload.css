@@ -68,7 +68,12 @@
 }
 
 #uploadHowText {
-    padding: 0% 0% 0% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    padding: 0% 0% 0% 1%;
     border-left: solid 0.2em #49111C;
     width: 80%;
     min-height: fit-content(100%);
@@ -92,10 +97,16 @@
 }
 
 #uploadWhatText {
-    padding: 0% 0% 0% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    padding: 0% 0% 0% 1%;
     border-left: solid 0.2em #49111C;
     width: 80%;
     min-height: fit-content(100%);
+    font-size: 1.2em;
 }
 
 #uploadBodyForm {

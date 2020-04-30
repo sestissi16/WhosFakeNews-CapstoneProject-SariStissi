@@ -26,19 +26,19 @@ class Upload extends Component {
                         </div>
                         <div id="uploadHowText">
                           <ul>
-                            <li>
+                            <li id="HowText1stSection">
                               The first section below is where you can copy and paste a URL. 
                               <ul>
                                 <li>Then you'll click the red upload button.</li>
                               </ul>
                             </li>
-                            <li>
+                            <li id="HowText2ndSection">
                               The second section below is where you can upload a photo, pdf, video, etc. from your own computer.  
                               <ul>
                                 <li>No need to click any buttons to upload.</li>
                               </ul>
                             </li>
-                            <li>
+                            <li id="HowText3rdSection">
                               At this time, you can only upload one thing at a time. Which means:
                               <ul>
                                 <li>You can not upload both a url and a file.</li>
@@ -53,9 +53,14 @@ class Upload extends Component {
                           <h3>What to upload:</h3>
                         </div>
                         <div id="uploadWhatText">
-                          <p>
-                            Text explaining What to upload
-                          </p>
+                          <ul>
+                            <li>
+                              What types of files you can upload:
+                              <ul>
+                                <li> .pdf, .png, .jpeg, .mp4, .doc, .odt </li>
+                              </ul>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
