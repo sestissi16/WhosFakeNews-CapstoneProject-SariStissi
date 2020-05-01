@@ -1,0 +1,30 @@
+{
+  "name": "whosfakenewsproject",
+  "version": "1.0.0",
+  "description": "Full stack project for finding fake news",
+  "main": "index.js",
+  "scripts": {
+    "client-start": "cd client && yarn start",
+    "server-start": "cd server && npm start",
+    "devstart": "concurrently \"npm run server-start\" \"npm run client-start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sestissi16/WhosFakeNewsProject.git"
+  },
+  "keywords": [
+    "react.js",
+    "node.js",
+    "express",
+    "PostgreSQL",
+    "fake",
+    "news",
+    "accessible"
+  ],
+  "author": "Sari Stissi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sestissi16/WhosFakeNewsProject/issues"
+  },
+  "homepage": "https://github.com/sestissi16/WhosFakeNewsProject#readme"
+}
