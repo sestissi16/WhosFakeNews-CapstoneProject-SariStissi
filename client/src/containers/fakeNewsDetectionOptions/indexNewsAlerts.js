@@ -1,4 +1,5 @@
 import React from 'react'
+import { Form, InputGroup, Button, Col } from 'react-bootstrap'
 import './indexNewsAlerts.css'
 
 const NewsAlerts = () => (
@@ -32,6 +33,15 @@ const NewsAlerts = () => (
                     <div id="newsAlertsSelectionContainer">
                         <div id="newsAlertsAddAndSearch">
                             <o>Placeholder for where you can add keywords and search through results</o>
+                            <InputGroup id="searchInputGroup" className="mb-3 float-right">
+                                <Form.Control
+                                placeholder="Search"
+                                aria-label="Search for results"
+                                />
+                                <InputGroup.Append>
+                                    <Button variant="danger">Search</Button>
+                                </InputGroup.Append>
+                            </InputGroup>
                         </div>
                         <div id="newsAlertsView">
                             <div id="newsAlertsViewKeywords">
