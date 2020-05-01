@@ -52,7 +52,7 @@ const NewsAlerts = () => (
                                     <Button variant="danger">Filter</Button>
                                 </InputGroup.Append>
                             </InputGroup>
-                            <InputGroup id="searchInputGroup" className="mb-3 float-right">
+                            <InputGroup id="searchInputGroup">
                                 <Form.Control
                                 placeholder="Search"
                                 aria-label="Search for results"
