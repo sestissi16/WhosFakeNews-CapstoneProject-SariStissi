@@ -10,18 +10,18 @@ const NewsAlerts = () => (
             <div id="newsAlertsBody">
                 <div id="newsAlertsInfo">
                     <h2 id="newsAlertsInfoTitle">How does this work?</h2>
-                    <ol>
-                        <li>
+                    <ol id="newsAlertsInfoList">
+                        <li class="newAlertsInfoListItems">
                             Sign in and navigate back to this page. (If you're already signed in, go to the next step)
                         </li>
-                        <li>
+                        <li class="newAlertsInfoListItems">
                             Choose what topics, people, or events you want to find news about.
                             Those topics, events, or people are keywords.
                         </li>
-                        <li>
+                        <li class="newAlertsInfoListItems">
                             Add those keywords you came up with in step 2 below and click on save.
                         </li>
-                        <li>
+                        <li class="newAlertsInfoListItems">
                             We will email you when we find something that relates to the words you added and have checked it for fake news.
                         </li>
                     </ol>
