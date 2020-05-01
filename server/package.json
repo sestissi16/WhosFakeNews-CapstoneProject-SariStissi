@@ -1,0 +1,32 @@
+{
+  "name": "whosfakenewsserver",
+  "version": "1.0.0",
+  "description": "Backend for Who's Fake News Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sestissi16/WhosFakeNewsProject.git"
+  },
+  "keywords": [
+    "react.js",
+    "node.js",
+    "express",
+    "PostgreSQL",
+    "fake",
+    "news",
+    "accessible"
+  ],
+  "author": "Sari Stissi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sestissi16/WhosFakeNewsProject/issues"
+  },
+  "homepage": "https://github.com/sestissi16/WhosFakeNewsProject#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1"
+  }
+}
