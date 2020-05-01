@@ -60,6 +60,78 @@
     align-content: center;
     width: 100%;
     min-height: fit-content(100%);
-    background-color: #BAA7B0;
+    background-color: #DCBCCB;
+    padding: 1%;
+}
 
+#newsAlertsSelectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: fit-content(100%);
+    border: solid 0.3em #5E1A30;
+}
+
+#newsAlertsAddAndSearch {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content(100%);
+    background-color: #E8E3FF;
+    border-bottom: solid 0.1em #5E1A30;
+
+}
+
+#newsAlertsView {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    /* height: 100%; */
+    width: 100%;
+}
+
+#newsAlertsViewKeywords {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    padding: 1% 0.5%;
+    background-color: #FFE2E2;
+    border-right: solid 0.1em #5E1A30;
+}
+
+#newsAlertsViewResults {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    height: fit-content;
+    background-color: #E2FFF6;
+    flex: 1;
+}
+
+
+
+@media (max-width:445px) {
+    /* Changes for Mobile view */
+}
+
+@media (max-width:768px) {
+    /* Changes for Tablet view */
+}
+
+@media (max-width:1023px) {
+    /* Changes for Laptop view */
 }

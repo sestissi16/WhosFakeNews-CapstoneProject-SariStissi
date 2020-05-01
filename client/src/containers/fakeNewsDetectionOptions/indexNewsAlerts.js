@@ -26,8 +26,37 @@ const NewsAlerts = () => (
                         </li>
                     </ol>
                 </div>
+                {/* Have the section below only show up if the user is signed in, have a different div made in the future that explains that they need to sign up to see this */}
                 <div id="newsAlertsSelection">
-                    <h1>Pick the topics to search for and see the results</h1>
+                    <h1>News Alerts Control Panel</h1>
+                    <div id="newsAlertsSelectionContainer">
+                        <div id="newsAlertsAddAndSearch">
+                            <o>Placeholder for where you can add keywords and search through results</o>
+                        </div>
+                        <div id="newsAlertsView">
+                            <div id="newsAlertsViewKeywords">
+                                <p>
+                                    Placeholder for where you can view the keywords you've already added.
+                                    You'll also be able to delete keywords here
+                                </p>
+                            </div>
+                            <div id="newsAlertsViewResults">
+                                <p>Placeholder for where you can see all the results of fake news checks
+                                    on the news relating to the keywords<br />
+                                    It will have the title, the keyword(s)  it relates to, the date found and checked, the Results
+                                    and part of the details showing depending on the size of the website<br />
+                                    You will be able to scroll through them as there are more. It will be organized by most recent first
+                                    but I will have different filter options the search bar so people can choose.<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="newsAlertsNotifyMethod">
+                        <p>
+                            Placeholder for where you can choose how you want to be notified. 
+                            The default is email because that's what users use to sign up
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
