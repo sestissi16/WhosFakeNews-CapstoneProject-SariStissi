@@ -40,6 +40,19 @@
 
 }
 
+#newsAlertsInfoTitle {
+    padding: 1%;
+    border-bottom: solid 0.2em #76232A;
+    border-right: solid 0.2em #76232A;
+    border-left: solid 0.2em #76232A;
+    border-radius: 10%;
+}
+
+.newAlertsInfoListItems {
+    border-bottom: solid 0.05em #76232A;
+    padding: 2% 0%;
+}
+
 #newsAlertsSelection {
     display: flex;
     flex-direction: column;
