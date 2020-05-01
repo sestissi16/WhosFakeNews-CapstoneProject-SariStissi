@@ -1,6 +1,6 @@
 #newsAlertsPageContainer {
     display: flex;
-    height: 100%;
+    min-height: fit-content(100%);
 }
 
 #newsAlertsContent {
@@ -89,7 +89,15 @@
 }
 
 #searchInputGroup {
-    margin: 1%;
+    margin: 0.5%;
+}
+
+#filterInputGroup {
+    margin: 0.5%;
+}
+
+#addInputGroup {
+    margin: 0.5%;
 }
 
 #newsAlertsView {
@@ -135,6 +143,33 @@
 
 @media (max-width:768px) {
     /* Changes for Tablet view */
+    #newsAlertsAddAndSearch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content(100%);
+        background-color: #E8E3FF;
+        border-bottom: solid 0.1em #5E1A30;
+    
+    }
+
+    #searchInputGroup {
+        margin: 0.5%;
+        width: 97%;
+    }
+    
+    #filterInputGroup {
+        margin: 0.5%;
+        width: 97%;
+    }
+    
+    #addInputGroup {
+        margin: 0.5%;
+        width: 97%;
+    }
 }
 
 @media (max-width:1023px) {

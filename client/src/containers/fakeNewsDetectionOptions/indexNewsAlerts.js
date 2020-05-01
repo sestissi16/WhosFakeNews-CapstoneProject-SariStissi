@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form, InputGroup, Button, Col, DropdownButton, FormControl, Dropdown } from 'react-bootstrap'
+import { TiPlus } from 'react-icons/ti';
 import './indexNewsAlerts.css'
 
 const NewsAlerts = () => (
@@ -32,17 +33,25 @@ const NewsAlerts = () => (
                     <h1>News Alerts Control Panel</h1>
                     <div id="newsAlertsSelectionContainer">
                         <div id="newsAlertsAddAndSearch">
-                            <o>Placeholder for where you can add keywords and search through results</o>
-                            <InputGroup>
+                            <InputGroup id="addInputGroup">
+                                <FormControl
+                                    placeholder="Add keyword"
+                                    aria-label="Add keyword"
+                                />
+                                <InputGroup.Append>
+                                    <Button variant="danger"><TiPlus /> Add</Button>
+                                </InputGroup.Append>
+                            </InputGroup>
+                            <InputGroup id="filterInputGroup">
                                 <FormControl
                                 placeholder="Enter specific filter"
                                 aria-label="Specific filter entry"
                                 />
                                 <DropdownButton
-                                as={InputGroup.Append}
-                                variant="outline-dark"
-                                title="Filter Type"
-                                id="newsAlertsFilterDropdown"
+                                    as={InputGroup.Append}
+                                    variant="outline-dark"
+                                    title="Filter Type"
+                                    id="newsAlertsFilterDropdown"
                                 >
                                     <Dropdown.Item >Title</Dropdown.Item>
                                     <Dropdown.Item >Date</Dropdown.Item>
@@ -54,8 +63,8 @@ const NewsAlerts = () => (
                             </InputGroup>
                             <InputGroup id="searchInputGroup">
                                 <Form.Control
-                                placeholder="Search"
-                                aria-label="Search for results"
+                                    placeholder="Search"
+                                    aria-label="Search for results"
                                 />
                                 <InputGroup.Append>
                                     <Button variant="danger">Search</Button>
