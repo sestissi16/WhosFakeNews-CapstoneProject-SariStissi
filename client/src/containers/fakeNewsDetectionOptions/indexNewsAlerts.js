@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, InputGroup, Button, Col } from 'react-bootstrap'
+import { Form, InputGroup, Button, Col, DropdownButton, FormControl, Dropdown } from 'react-bootstrap'
 import './indexNewsAlerts.css'
 
 const NewsAlerts = () => (
@@ -33,6 +33,25 @@ const NewsAlerts = () => (
                     <div id="newsAlertsSelectionContainer">
                         <div id="newsAlertsAddAndSearch">
                             <o>Placeholder for where you can add keywords and search through results</o>
+                            <InputGroup>
+                                <FormControl
+                                placeholder="Enter specific filter"
+                                aria-label="Specific filter entry"
+                                />
+                                <DropdownButton
+                                as={InputGroup.Append}
+                                variant="outline-dark"
+                                title="Filter Type"
+                                id="newsAlertsFilterDropdown"
+                                >
+                                    <Dropdown.Item >Title</Dropdown.Item>
+                                    <Dropdown.Item >Date</Dropdown.Item>
+                                    <Dropdown.Item >Result</Dropdown.Item>
+                                </DropdownButton>
+                                <InputGroup.Append>
+                                    <Button variant="danger">Filter</Button>
+                                </InputGroup.Append>
+                            </InputGroup>
                             <InputGroup id="searchInputGroup" className="mb-3 float-right">
                                 <Form.Control
                                 placeholder="Search"
