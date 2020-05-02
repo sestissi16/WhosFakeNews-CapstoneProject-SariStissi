@@ -73,10 +73,36 @@ const NewsAlerts = () => (
                         </div>
                         <div id="newsAlertsView">
                             <div id="newsAlertsViewKeywords">
-                                <p>
-                                    Placeholder for where you can view the keywords you've already added.
-                                    You'll also be able to delete keywords here
-                                </p>
+                                <div id="viewActiveFilters">
+                                    <div id="veiwFiltersTitle">
+                                        <h6>Filters In Use:</h6>
+                                    </div>
+                                    <div id="filter1-example">
+                                        <p>Ex: Results: fake</p>
+                                    </div>
+                                    <div id="filter2-example">
+                                        <p>Ex: Date: 2020</p>
+                                    </div>
+                                </div>
+                                <div id="viewSelectedKeywords">
+                                    <div id="veiwKeywordsTitle">
+                                        <h6>Keywords saved:</h6>
+                                    </div>
+                                    <div id="keyword1-example">
+                                        <p>
+                                            Ex: 2020 election
+                                        </p>
+                                    </div>
+                                    <div id="keyword2-example">
+                                        <p>
+                                            Ex: Earlham College
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="viewKeywordsButtonGroup">
+                                    <Button variant="danger" id="keywordsClear">Clear Keywords</Button> 
+                                    <Button variant="danger" id="filtersClear">Clear Filters</Button> 
+                                </div>
                             </div>
                             <div id="newsAlertsViewResults">
                                 <p>Placeholder for where you can see all the results of fake news checks
