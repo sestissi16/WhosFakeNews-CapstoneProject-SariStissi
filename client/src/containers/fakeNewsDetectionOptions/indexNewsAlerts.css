@@ -433,6 +433,50 @@
         margin: 0% 0% 0% 1.5%;
         width: 25%;
     }
+
+    #newsAlertsViewResults {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height:30em;
+        background-color: #E8E3FF;
+        overflow: auto;
+        padding: 1% 1% 0%;
+    }
+
+    .displayCardTopRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height: fit-content(50%);
+        padding: 1% 0%;
+        border-bottom: dotted 0.05em #76232A;
+    }
+
+    .displayCardResult {
+        text-align: left;
+        border-right: solid 0.03em #5E1A30;
+        padding: 1%;
+        width: 20%;
+        height: fit-content(100%);
+    }
+    
+    .displayCardDate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        border-right: solid 0.03em #5E1A30;
+        padding: 1%;
+        width: 30%;
+        height: fit-content(100%);
+    }
 }
 
 @media (max-width:1023px) {
