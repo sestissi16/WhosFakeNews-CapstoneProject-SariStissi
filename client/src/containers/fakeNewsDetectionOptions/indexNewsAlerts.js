@@ -328,12 +328,6 @@ const NewsAlerts = () => (
                             </div>
                         </div>
                     </div>
-                    <div id="newsAlertsNotifyMethod">
-                        <p>
-                            Placeholder for where you can choose how you want to be notified. 
-                            The default is email because that's what users use to sign up
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
