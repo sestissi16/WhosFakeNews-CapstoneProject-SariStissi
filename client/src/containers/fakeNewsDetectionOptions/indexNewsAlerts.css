@@ -210,7 +210,7 @@
     align-self: flex-end;
     width: 100%;
     height: fit-content(10%);
-    margin-top: 20%;
+    /* margin-top: 20%; */
 }
 
 #keywordsClear {
@@ -240,6 +240,17 @@
 
 @media (max-width:445px) {
     /* Changes for Mobile view */
+    #keywordsClear {
+        padding: 1.2%;
+        margin: 0% 1.5% 1% 0% !important;
+        width: 50% !important;
+    }
+    
+    #filtersClear {
+        padding: 1.2%;
+        margin: 0% 0% 1% 1.5% !important;
+        width: 40% !important;
+    }
 }
 
 @media (max-width:768px) {
@@ -289,14 +300,74 @@
         border-right: none;
     }
 
+    #viewSelected {
+        height: 11em;
+    }
+
+    #viewActiveFilters {
+        width: 100%;
+        height: 5em;
+    }
+
+    #filterChipsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .filterStyling {
+        margin: 1% 2%;
+    }
+
+    #viewSelectedKeywords {
+        width: 100%;
+        height: 6em;
+    }
+
+    #veiwKeywordsTitle {
+        padding: 1% 0% 0%;
+        border-bottom: solid 0.04em #5E1A30;
+    }
+
+    #keywordChipsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .keywordStyling {
+        margin: 1% 2%;
+    }
+
     #viewKeywordsButtonGroup {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-content: center;
         align-items: center;
         width: 100%;
         height: fit-content(10%);
+        /* margin: 0%; */
+    }
+
+    #keywordsClear {
+        padding: 1.2%;
+        margin: 0% 1.5% 0% 0%;
+        width: 25%;
+    }
+    
+    #filtersClear {
+        padding: 1.2%;
+        margin: 0% 0% 0% 1.5%;
+        width: 25%;
     }
 }
 
