@@ -123,24 +123,58 @@
     border-right: solid 0.1em #5E1A30;
 }
 
+#veiwFiltersTitle {
+    text-align: left;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    width: 98%;
+    border-bottom: solid 0.04em #5E1A30;
+}
+
 #viewActiveFilters {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-content: center;
-    align-items: center;
+    align-content: flex-start;
+    align-items: flex-start;
     width: 100%;
     height: fit-content(20%);
 }
+
+.filterStyling {
+    margin: 3% 2% 2%;
+}
+
+/* .filterDeleteButton {
+    border-radius: 100% !important;
+    width: 10% !important;
+    height: 20% !important;
+} */
+
+#veiwKeywordsTitle {
+    text-align: left;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    width: 98%;
+    padding: 4% 0% 0%;
+    border-bottom: solid 0.04em #5E1A30;
+}
+
 
 #viewSelectedKeywords {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-content: center;
-    align-items: center;
+    align-content: flex-start;
+    align-items: flex-start;
     width: 100%;
     height: fit-content(70%);
+}
+
+.keywordStyling {
+    margin: 3% 2% 2%;
 }
 
 #viewKeywordsButtonGroup {

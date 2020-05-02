@@ -1,7 +1,41 @@
 import React from 'react'
 import { Form, InputGroup, Button, Col, DropdownButton, FormControl, Dropdown } from 'react-bootstrap'
+// import { Button, Icon } from 'semantic-ui-react'
+import { IconButton, Icon } from "@chakra-ui/core";
+import Chip from '@material-ui/core/Chip';
+import CloseIcon from '@material-ui/icons/Close';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
 import { TiPlus } from 'react-icons/ti';
 import './indexNewsAlerts.css'
+
+//to be able to choose the colors for the filter and keyword chips
+const theme = createMuiTheme({
+    palette: {
+      primary: {
+        // light: will be calculated from palette.primary.main,
+        main: '#E0A0AD',
+        // dark: will be calculated from palette.primary.main,
+        contrastText: '#000000',
+      },
+      secondary: {
+        main: '#B3B4BD',
+        // dark: will be calculated from palette.secondary.main,
+        contrastText: '#000000',
+      },
+      // Used by `getContrastText()` to maximize the contrast between
+      // the background and the text.
+      contrastThreshold: 3,
+      // Used by the functions below to shift a color's luminance by approximately
+      // two indexes within its tonal palette.
+      // E.g., shift from Red 500 to Red 300 or Red 700.
+      tonalOffset: 0.2,
+    },
+  });
+
+const handleDelete = () => {
+    console.log('delete this later')
+};
 
 const NewsAlerts = () => (
     <div id="newsAlertsPageContainer">
@@ -49,7 +83,7 @@ const NewsAlerts = () => (
                                 />
                                 <DropdownButton
                                     as={InputGroup.Append}
-                                    variant="outline-dark"
+                                    variant="dark"
                                     title="Filter Type"
                                     id="newsAlertsFilterDropdown"
                                 >
@@ -77,26 +111,58 @@ const NewsAlerts = () => (
                                     <div id="veiwFiltersTitle">
                                         <h6>Filters In Use:</h6>
                                     </div>
-                                    <div id="filter1-example">
-                                        <p>Ex: Results: fake</p>
+                                    <div id="filter1-example" class="filterStyling">
+                                        <ThemeProvider theme={theme}>
+                                            <Chip
+                                                size="small"
+                                                label="Ex: Results: fake"
+                                                clickable
+                                                onDelete={handleDelete}
+                                                color="secondary"
+                                                // deleteIcon={<CloseIcon />}
+                                            />
+                                        </ThemeProvider>
                                     </div>
-                                    <div id="filter2-example">
-                                        <p>Ex: Date: 2020</p>
+                                    <div id="filter2-example" class="filterStyling">
+                                        <ThemeProvider theme={theme}>
+                                            <Chip
+                                                size="small"
+                                                label="Ex: Date: 2020"
+                                                clickable
+                                                onDelete={handleDelete}
+                                                color="secondary"
+                                                // deleteIcon={<CloseIcon />}
+                                            />
+                                        </ThemeProvider>
                                     </div>
                                 </div>
                                 <div id="viewSelectedKeywords">
                                     <div id="veiwKeywordsTitle">
                                         <h6>Keywords saved:</h6>
                                     </div>
-                                    <div id="keyword1-example">
-                                        <p>
-                                            Ex: 2020 election
-                                        </p>
+                                    <div id="keyword1-example" class="keywordStyling">
+                                         <ThemeProvider theme={theme}>
+                                            <Chip
+                                                size="small"
+                                                label="Ex: 2020 election"
+                                                clickable
+                                                onDelete={handleDelete}
+                                                color="primary"
+                                                // deleteIcon={<CloseIcon />}
+                                            />
+                                        </ThemeProvider>
                                     </div>
-                                    <div id="keyword2-example">
-                                        <p>
-                                            Ex: Earlham College
-                                        </p>
+                                    <div id="keyword2-example" class="keywordStyling">
+                                         <ThemeProvider theme={theme}>
+                                            <Chip
+                                                size="small"
+                                                label="Ex: Earlham College"
+                                                clickable
+                                                onDelete={handleDelete}
+                                                color="primary"
+                                                // deleteIcon={<CloseIcon />}
+                                            />
+                                        </ThemeProvider>
                                     </div>
                                 </div>
                                 <div id="viewKeywordsButtonGroup">
