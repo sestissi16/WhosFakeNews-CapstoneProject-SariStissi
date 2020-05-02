@@ -24,36 +24,3 @@
     flex-direction: column;
     margin: 0% 2%;
 }
-
-
-#extensionLeftSideBar, #extensionRightSideBar {
-    width: 8%;
-    background-color: rgb(59, 155, 56);
-    height: 100%;
-}
-
-@media (max-width:544px){
-    #extensionLeftSideBar, #extensionRightSideBar {
-        display: none;
-    }
-}
-
-@media (max-width:830px){
-    #extensionRightSideBar {
-        display: none;
-    }
-
-    #extensionLeftSideBar {
-        width: 7%;
-    }
-}
-
-@media (max-width:715px){
-    #extensionRightSideBar {
-        display: none;
-    }
-
-    #extensionLeftSideBar {
-        width: 4.5%;
-    }
-}

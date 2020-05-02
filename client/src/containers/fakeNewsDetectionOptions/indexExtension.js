@@ -3,7 +3,6 @@ import './indexExtension.css'
 
 const Extension = () => (
     <div id="extensionPageContainer">
-        <div id="extensionLeftSideBar"></div>
         <div id="extensionContent">
             <div id="extensionHeader">
                 <h1>Extension Page</h1>
@@ -16,7 +15,6 @@ const Extension = () => (
                 </p>
             </div>
         </div>
-        <div id="extensionRightSideBar"></div>
     </div>
 )
 
