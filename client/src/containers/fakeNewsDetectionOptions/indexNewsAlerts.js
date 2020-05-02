@@ -33,6 +33,9 @@ const theme = createMuiTheme({
     },
   });
 
+// const primaryLight = theme.palette.primary.light;
+// const primaryDark = theme.palette.primary.dark;
+
 const handleDelete = () => {
     console.log('delete this later')
 };
