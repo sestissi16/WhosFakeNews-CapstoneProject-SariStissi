@@ -106,7 +106,7 @@
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    min-height: fit-content(100%);
+    height: 80%;
     width: 100%;
 }
 
@@ -123,6 +123,16 @@
     border-right: solid 0.1em #5E1A30;
 }
 
+#viewSelected {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25em;
+}
+
 #veiwFiltersTitle {
     text-align: left;
     display: flex;
@@ -136,21 +146,25 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10em;
+}
+
+#filterChipsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    height: fit-content(20%);
+    overflow: auto;
 }
 
 .filterStyling {
     margin: 3% 2% 2%;
 }
-
-/* .filterDeleteButton {
-    border-radius: 100% !important;
-    width: 10% !important;
-    height: 20% !important;
-} */
 
 #veiwKeywordsTitle {
     text-align: left;
@@ -167,10 +181,20 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15em;
+}
+
+#keywordChipsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    height: fit-content(70%);
+    overflow: auto;
 }
 
 .keywordStyling {
@@ -207,9 +231,9 @@
     align-items: center;
     align-content: center;
     width: 80%;
-    height: fit-content;
+    height:100%;
     background-color: #E8E3FF;
-    flex: 1;
+    overflow: auto;
 }
 
 

@@ -110,62 +110,105 @@ const NewsAlerts = () => (
                         </div>
                         <div id="newsAlertsView">
                             <div id="newsAlertsViewKeywords">
-                                <div id="viewActiveFilters">
-                                    <div id="veiwFiltersTitle">
-                                        <h6>Filters In Use:</h6>
+                                <div id="viewSelected">
+                                    <div id="viewActiveFilters">
+                                        <div id="veiwFiltersTitle">
+                                            <h6>Filters In Use:</h6>
+                                        </div>
+                                        <div id="filterChipsContainer">
+                                            <div id="filter1-example" class="filterStyling">
+                                                <ThemeProvider theme={theme}>
+                                                    <Chip
+                                                        size="small"
+                                                        label="Ex: Results: fake"
+                                                        clickable
+                                                        onDelete={handleDelete}
+                                                        color="secondary"
+                                                        // deleteIcon={<CloseIcon />}
+                                                    />
+                                                </ThemeProvider>
+                                            </div>
+                                            <div id="filter2-example" class="filterStyling">
+                                                <ThemeProvider theme={theme}>
+                                                    <Chip
+                                                        size="small"
+                                                        label="Ex: Date: 2020"
+                                                        clickable
+                                                        onDelete={handleDelete}
+                                                        color="secondary"
+                                                        // deleteIcon={<CloseIcon />}
+                                                    />
+                                                </ThemeProvider>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
-                                    <div id="filter1-example" class="filterStyling">
-                                        <ThemeProvider theme={theme}>
-                                            <Chip
-                                                size="small"
-                                                label="Ex: Results: fake"
-                                                clickable
-                                                onDelete={handleDelete}
-                                                color="secondary"
-                                                // deleteIcon={<CloseIcon />}
-                                            />
-                                        </ThemeProvider>
-                                    </div>
-                                    <div id="filter2-example" class="filterStyling">
-                                        <ThemeProvider theme={theme}>
-                                            <Chip
-                                                size="small"
-                                                label="Ex: Date: 2020"
-                                                clickable
-                                                onDelete={handleDelete}
-                                                color="secondary"
-                                                // deleteIcon={<CloseIcon />}
-                                            />
-                                        </ThemeProvider>
-                                    </div>
-                                </div>
-                                <div id="viewSelectedKeywords">
-                                    <div id="veiwKeywordsTitle">
-                                        <h6>Keywords saved:</h6>
-                                    </div>
-                                    <div id="keyword1-example" class="keywordStyling">
-                                         <ThemeProvider theme={theme}>
-                                            <Chip
-                                                size="small"
-                                                label="Ex: 2020 election"
-                                                clickable
-                                                onDelete={handleDelete}
-                                                color="primary"
-                                                // deleteIcon={<CloseIcon />}
-                                            />
-                                        </ThemeProvider>
-                                    </div>
-                                    <div id="keyword2-example" class="keywordStyling">
-                                         <ThemeProvider theme={theme}>
-                                            <Chip
-                                                size="small"
-                                                label="Ex: Earlham College"
-                                                clickable
-                                                onDelete={handleDelete}
-                                                color="primary"
-                                                // deleteIcon={<CloseIcon />}
-                                            />
-                                        </ThemeProvider>
+                                    <div id="viewSelectedKeywords">
+                                        <div id="veiwKeywordsTitle">
+                                            <h6>Keywords saved:</h6>
+                                        </div>
+                                        <div id="keywordChipsContainer">
+                                            <div id="keyword1-example" class="keywordStyling">
+                                                <ThemeProvider theme={theme}>
+                                                    <Chip
+                                                        size="small"
+                                                        label="Ex: 2020 election"
+                                                        clickable
+                                                        onDelete={handleDelete}
+                                                        color="primary"
+                                                        // deleteIcon={<CloseIcon />}
+                                                    />
+                                                </ThemeProvider>
+                                            </div>
+                                            <div id="keyword2-example" class="keywordStyling">
+                                                <ThemeProvider theme={theme}>
+                                                    <Chip
+                                                        size="small"
+                                                        label="Ex: Earlham College"
+                                                        clickable
+                                                        onDelete={handleDelete}
+                                                        color="primary"
+                                                        // deleteIcon={<CloseIcon />}
+                                                    />
+                                                </ThemeProvider>
+                                            </div>
+                                            <div id="keyword3-example" class="keywordStyling">
+                                                <ThemeProvider theme={theme}>
+                                                    <Chip
+                                                        size="small"
+                                                        label="Ex: Lynn Gunn"
+                                                        clickable
+                                                        onDelete={handleDelete}
+                                                        color="primary"
+                                                        // deleteIcon={<CloseIcon />}
+                                                    />
+                                                </ThemeProvider>
+                                            </div>
+                                            <div id="keyword4-example" class="keywordStyling">
+                                                <ThemeProvider theme={theme}>
+                                                    <Chip
+                                                        size="small"
+                                                        label="Ex: Grammy Awards"
+                                                        clickable
+                                                        onDelete={handleDelete}
+                                                        color="primary"
+                                                        // deleteIcon={<CloseIcon />}
+                                                    />
+                                                </ThemeProvider>
+                                            </div>
+                                            <div id="keyword5-example" class="keywordStyling">
+                                                <ThemeProvider theme={theme}>
+                                                    <Chip
+                                                        size="small"
+                                                        label="Ex: Cooking"
+                                                        clickable
+                                                        onDelete={handleDelete}
+                                                        color="primary"
+                                                        // deleteIcon={<CloseIcon />}
+                                                    />
+                                                </ThemeProvider>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="viewKeywordsButtonGroup">
