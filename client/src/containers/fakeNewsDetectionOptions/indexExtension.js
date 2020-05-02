@@ -5,7 +5,7 @@ const Extension = () => (
     <div id="extensionPageContainer">
         <div id="extensionContent">
             <div id="extensionHeader">
-                <h1>Extension Page</h1>
+                <h3><strong><em>Download the extension so we'll do all the hard work for you!</em></strong></h3>
             </div>
             <div id="extensionBody">
                 <p>
