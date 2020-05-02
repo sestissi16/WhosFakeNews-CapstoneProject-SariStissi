@@ -27,3 +27,14 @@
     flex-direction: column;
     margin: 0% 2%;
 }
+
+#extensionInfoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 2%;
+    height: fit-content;
+}
