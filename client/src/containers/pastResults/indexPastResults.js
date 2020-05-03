@@ -44,7 +44,7 @@ const PastResults = () => (
             <div id="pastResultsBody">
                 <div id="pastResultsBodyContent">
                     <div id="pastResultsSelection">
-                        <h1>Past Results Control Panel</h1>
+                        <h1 id="pastResultsSelectionTitle">Past Results Control Panel</h1>
                         <div id="pastResultsSelectionContainer">
                             <div id="pastResultsFilterAndSearch">
                                 <InputGroup id="pastResultsfilterGroup">
