@@ -34,6 +34,68 @@
     width: 100%;
 }
 
+#pastResultsInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    height: fit-content;
+}
+
+#pastResultsInfoTitle {
+    padding: 1%;
+    border-bottom: solid 0.2em #76232A;
+    border-right: solid 0.2em #76232A;
+    border-left: solid 0.2em #76232A;
+    border-radius: 20%;
+}
+
+#pastResultsInfoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 2% 0% 0%;
+}
+
+#pastResultsInfoList {
+    font-size: 1.2em;
+    border-left: solid 0.2em #76232A;
+    width: 98%
+}
+
+.pastResultsInfoListItem {
+    padding: 2% 0% 0%;
+}
+
+#pastResultsInfoTutorialLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 98%;
+    height: fit-content;
+}
+
+#pastResultsInfoTutorialLink {
+    margin: 1% 0% 0%;
+    padding: 1% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: dotted 0.07em #76232A;
+}
+
 #pastResultsSelection {
     display: flex;
     flex-direction: column;
@@ -41,7 +103,7 @@
     align-content: center;
     width: 100%;
     min-height: fit-content(100%);
-    background-color: #27435B;
+    background-color: rgba(41, 84, 121, 0.836);
     padding: 1%;
 }
 

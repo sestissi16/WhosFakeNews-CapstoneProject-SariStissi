@@ -43,6 +43,36 @@ const PastResults = () => (
             </div>
             <div id="pastResultsBody">
                 <div id="pastResultsBodyContent">
+                    <div id="pastResultsInfo">
+                        <div id="pastResultsInfoTitle">
+                            <h2>What you can do in the Past Results Control Panel</h2>
+                        </div>
+                        <div id="pastResultsInfoText">
+                            <ul id="pastResultsInfoList">
+                                <li  class="pastResultsInfoListItem">
+                                    You can search for a specific title, date something was checked, or result.
+                                </li>
+                                <li  class="pastResultsInfoListItem">
+                                    You can see everything that has ever been checked
+                                    <ul>
+                                        <li class="pastResultsInfoNestedItem">
+                                            This way you can see if what you're looking for has already been checked!
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li  class="pastResultsInfoListItem">
+                                    You can switch the view to show only the things that you have personally checked if you're signed in.
+                                </li>
+                            </ul>
+                            <div id="pastResultsInfoTutorialLink">
+                                <h4 id="pastResultsInfoTutorialTitle">
+                                    For more help, go to the Tutorials section. 
+                                    You can get there by clicking the button here or in the navigation bar under Resources.
+                                </h4>
+                                <Button href="/MoreResources/Tutorials" variant="danger" id="pastResultsTutorialButton">Go to Tutorials</Button>
+                            </div>
+                        </div>
+                    </div>
                     <div id="pastResultsSelection">
                         <h1 id="pastResultsSelectionTitle">Past Results Control Panel</h1>
                         <div id="pastResultsSelectionContainer">
@@ -119,8 +149,7 @@ const PastResults = () => (
                                                     />
                                                 </ThemeProvider>
                                             </div>
-                                        </div>
-                                        
+                                        </div>   
                                     </div>
                                     <div id="viewFiltersButtonGroup">
                                         <Button variant="danger" id="pastResultsFiltersClear">Clear Filters</Button> 
