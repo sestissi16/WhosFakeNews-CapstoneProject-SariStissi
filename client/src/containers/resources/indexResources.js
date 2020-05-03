@@ -7,7 +7,7 @@ const Resources = () => (
     <div id="resourcesPageContainer">
         <div id="resourcesContent">
             <div id="resourcesHeader">
-                <h6 id="resourcesHeaderMessage"><strong><em>This page has links to other resources with have for you</em></strong></h6>
+                <h3 id="resourcesHeaderMessage"><strong><em>This page has links to other resources with have for you</em></strong></h3>
             </div>
             <div id="resourcesBody">
                 <div id="resourcesBodyContent">
@@ -19,28 +19,32 @@ const Resources = () => (
                             <div id="resourcesBodyDescriptInfoFaq">
                                 <h5 id="resourcesBodyInfoFaqTitle">FAQ</h5>
                                 <p class="resourcesBodyDescriptInfoText">
-                                    Placeholder text.
+                                    The FAQ will be a place for common questions that people have and their answers. 
+                                    This way everyone else can see the answer too.
                                 </p>
                                 <Button href="/Resources/FAQ" variant="light" id="resourcesFaqButton">Go to FAQ</Button>
                             </div>
                             <div id="resourcesBodyDescriptInfoTutorials">
                                 <h5 id="resourcesBodyInfoTutorialsTitle">Tutorials</h5>
                                 <p class="resourcesBodyDescriptInfoText">
-                                    Placeholder text.
+                                    The Tutorials page will have better information on how to use the website. 
+                                    If there's something confusing, the tutorials may help.
                                 </p>
                                 <Button href="/Resources/Tutorials" variant="light" id="resourcesTutorialsButton">Go to Tutorials</Button>
                             </div>
                             <div id="resourcesBodyDescriptInfoFeedback">
                                 <h5 id="resourcesBodyInfoFeedbackTitle">Feedback Page</h5>
                                 <p class="resourcesBodyDescriptInfoText">
-                                    Placeholder text.
+                                    The Feedback page is where you can send us a message. 
+                                    That message could be a question, a note about wanting to help, or a suggestion on what to change or add. 
                                 </p>
                                 <Button href="/Resources/Feedback" variant="light" id="resourcesFeedbackButton">Go to Feedback</Button>
                             </div>
                             <div id="resourcesBodyDescriptInfoMoreResources">
                                 <h5 id="resourcesBodyInfoMoreResourcesTitle">More Fake News Resources</h5>
                                 <p class="resourcesBodyDescriptInfoText">
-                                    Placeholder text.
+                                    The More Fake News Resources gives you links to other ways to find fake news that are out there. 
+                                    The link could be to another website, project, or document.
                                 </p>
                                 <Button href="/Resources/MoreResources" variant="light" id="resourcesMoreResourcesButton">Go to More Resources</Button>
                             </div>

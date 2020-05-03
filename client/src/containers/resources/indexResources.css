@@ -1,6 +1,6 @@
 #resourcesPageContainer{
     display: flex;
-    height: 100%;
+    min-height: fit-content(100%);
 }
 
 #resourcesContent {
@@ -17,7 +17,7 @@
     justify-content: center;
     width: 100%;
     padding: 2% 1%;
-    background-color: rgb(188, 255, 161);
+    background-color: #FF6C6C;
 }
 
 #resourcesBody {
