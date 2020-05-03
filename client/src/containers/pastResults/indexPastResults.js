@@ -1,6 +1,5 @@
 import React from 'react'
-import { Form, InputGroup, Button, Col, DropdownButton, FormControl, Dropdown } from 'react-bootstrap'
-// import { Button, Icon } from 'semantic-ui-react'
+import { Form, InputGroup, Button, ButtonGroup, DropdownButton, FormControl, Dropdown } from 'react-bootstrap'
 import Chip from '@material-ui/core/Chip';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
@@ -77,6 +76,13 @@ const PastResults = () => (
                         <h1 id="pastResultsSelectionTitle">Past Results Control Panel</h1>
                         <div id="pastResultsSelectionContainer">
                             <div id="pastResultsFilterAndSearch">
+                                <ButtonGroup 
+                                    aria-label="Choose to view personal or all results"
+                                    id="pastResultsButtonGroup"
+                                >
+                                    <Button variant="dark" id="pastResultsButtonGroupPersonal">Personal Results</Button>
+                                    <Button variant="dark" id="pastResultsButtonGroupAll">All Results</Button>
+                                </ButtonGroup>
                                 <InputGroup id="pastResultsfilterGroup">
                                     <FormControl
                                     placeholder="Enter specific filter"

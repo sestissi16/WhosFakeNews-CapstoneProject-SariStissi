@@ -136,11 +136,27 @@
 
 }
 
+#pastResultsButtonGroup {
+    width: 30%;
+    margin: 0.5%;
+}
+
+#pastResultsButtonGroupPersonal {
+    width: 50%;
+}
+
+#pastResultsButtonGroupAll {
+    width: 50%;
+    margin-left: 1%;
+}
+
 #pastResultssearchGroup {
+    width: 30%;
     margin: 0.5%;
 }
 
 #pastResultsfilterGroup {
+    width: 40%;
     margin: 0.5%;
 }
 
@@ -313,6 +329,11 @@
         background-color: #E8E3FF;
         border-bottom: solid 0.1em #5E1A30;
     
+    }
+
+    #pastResultsButtonGroup {
+        width: 97%;
+        margin: 0.5%;
     }
 
     #pastResultssearchGroup {
