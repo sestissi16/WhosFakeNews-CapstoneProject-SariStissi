@@ -25,7 +25,6 @@
 #extensionBody {
     display: flex;
     flex-direction: column;
-    margin: 0% 2%;
 }
 
 #extensionInfoSection {
@@ -66,4 +65,100 @@
     align-items: center;
     text-align: center;
     border-top: dotted 0.05em #76232A;
+}
+
+#extensionDownloadSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #7CA0BF; 
+    color: #000000;
+    width: 100%;
+    min-height: fit-content;
+    padding: 2%;
+}
+
+#extensionDownloadTitle {
+    padding: 0% 2% 1%;
+    border-bottom: groove 0.1em #76232A;
+    border-radius: 5%;
+    margin: 0% 0% 2%;
+}
+
+#extensionPreviewSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    padding: 2% 0%;
+}
+
+#extensionPreviewScenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: fit-content;
+    padding: 2% 0% 0%;
+}
+
+.previewScene {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: fit-content;
+    margin: 1% 2%;
+}
+
+.previewExamplePicture {
+    height: 30em;
+    width: 100%;
+    background-color: #AD343E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FFFBFC;
+}
+
+@media (max-width:445px) {
+    /* Changes for Mobile view */
+}
+
+@media (max-width:768px) {
+    /* Changes for Tablet view */
+    #extensionPreviewScenes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 95%;
+        height: fit-content;
+    }
+    
+    .previewScene {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        height: fit-content;
+    }
+}
+
+@media (max-width:1023px) {
+    /* Changes for Laptop view */
 }

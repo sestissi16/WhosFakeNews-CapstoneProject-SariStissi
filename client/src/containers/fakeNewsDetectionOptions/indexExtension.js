@@ -32,10 +32,43 @@ const Extension = () => (
                     </div>
                 </div>
                 <div id="extensionDownloadSection">
-
+                    <div id="extensionDownloadTitle">
+                        <h1>Here's the link to the extension!</h1>
+                    </div>
+                    <div id="extensionDowloadButton">
+                        <Button /*href=""*/ variant="danger" id="extensionDownloadButton" >Download Extension</Button>
+                    </div>
                 </div>
                 <div id="extensionPreviewSection">
-
+                    <div id="extensionPreviewTitle">
+                        <h3>Here's a preview of what the extension will look like:</h3>
+                    </div>
+                    <div id="extensionPreviewScenes">
+                        <div id="extensionPreviewScene1" class="previewScene">
+                            <h5 id="extensionPreviewTitle-1">
+                                Here's what the extension will look like on your browser
+                            </h5>
+                            <div id="extensionPreviewPicture-1" class="previewExamplePicture">
+                                <p>Actual image coming soon!</p>
+                            </div>
+                        </div>
+                        <div id="extensionPreviewScene2" class="previewScene">
+                            <h5 id="extensionPreviewTitle-2">
+                                Here's what you'll see if the extension is able to check for fake news
+                            </h5>
+                            <div id="extensionPreviewPicture-2" class="previewExamplePicture">
+                                <p>Actual image coming soon!</p>
+                            </div>
+                        </div>
+                        <div id="extensionPreviewScene3" class="previewScene">
+                            <h5 id="extensionPreviewTitle-3">
+                                Here's what you can see when you click on the results for more info
+                            </h5>
+                            <div id="extensionPreviewPicture-3" class="previewExamplePicture">
+                                <p>Actual image coming soon!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
