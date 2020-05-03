@@ -57,10 +57,10 @@ const Resources = () => (
                                         Not everything is working as of 04/30/2020
                                     </h3>
                                     <p class="resourcesBodyNoticeText">
-                                        Not all the resources pages work yet.  
-                                        We still need to create Tutorials and add them.
-                                        We need to get more feedback from people to add Frequently Asked Questions.
-                                        And the feedback form doesn't send emails quiet yet.
+                                        Not all the resources pages work yet.<br/>
+                                        We still need to create Tutorials and add them.<br/>
+                                        We need to get more feedback from people to add Frequently Asked Questions.<br/>
+                                        And the feedback form doesn't send emails quiet yet.<br/>
                                         This project is still in progress and updates will be coming soon.
                                     </p>
                                 </div>
