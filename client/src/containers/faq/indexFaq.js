@@ -6,7 +6,7 @@ const FAQ = () => (
     <div id="faqPageContainer">
         <div id="faqContent">
             <div id="faqHeader">
-                <h6 id="faqHeaderMessage"><strong><em>FAQ Page</em></strong></h6>
+                <h3 id="faqHeaderMessage"><strong><em>This is the FAQ page for the Who's Fake News Project</em></strong></h3>
             </div>
             <div id="faqBody">
                 <div id="faqBodyContent">
