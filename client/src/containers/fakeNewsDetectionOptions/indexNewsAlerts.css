@@ -99,16 +99,14 @@
 
 }
 
-#searchInputGroup {
-    margin: 0.5%;
-}
-
 #filterInputGroup {
     margin: 0.5%;
+    width: 60%;
 }
 
 #addInputGroup {
     margin: 0.5%;
+    width: 40%;
 }
 
 #newsAlertsView {
@@ -341,11 +339,6 @@
         background-color: #E8E3FF;
         border-bottom: solid 0.1em #5E1A30;
     
-    }
-
-    #searchInputGroup {
-        margin: 0.5%;
-        width: 97%;
     }
     
     #filterInputGroup {

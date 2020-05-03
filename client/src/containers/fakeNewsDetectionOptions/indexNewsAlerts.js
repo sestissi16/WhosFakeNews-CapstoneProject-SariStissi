@@ -105,15 +105,6 @@ const NewsAlerts = () => (
                                     <Button variant="danger">Filter</Button>
                                 </InputGroup.Append>
                             </InputGroup>
-                            <InputGroup id="searchInputGroup">
-                                <Form.Control
-                                    placeholder="Search"
-                                    aria-label="Search for results"
-                                />
-                                <InputGroup.Append>
-                                    <Button variant="danger">Search</Button>
-                                </InputGroup.Append>
-                            </InputGroup>
                         </div>
                         <div id="newsAlertsView">
                             <div id="newsAlertsViewKeywords">
