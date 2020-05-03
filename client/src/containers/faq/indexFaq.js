@@ -9,11 +9,9 @@ const FAQ = () => (
                 <h6 id="faqHeaderMessage"><strong><em>FAQ Page</em></strong></h6>
             </div>
             <div id="faqBody">
-                <div id="faqLeftSideBar"></div>
                 <div id="faqBodyContent">
                     <p>Content for FAQ</p>
                 </div>
-                <div id="faqRightSideBar"></div>
             </div>
         </div>
     </div>
