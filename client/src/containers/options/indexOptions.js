@@ -38,7 +38,7 @@ const Options = () => (
                         </div>
                         <div id="optionsBodyDescriptionsNotice">
                             <div id="optionsBodyNoticeFree">
-                                <h4 id="optinosBodyNotice1"><strong>Note 1:</strong></h4>
+                                <h4 id="optionsBodyNotice1"><strong>Note 1:</strong></h4>
                                 <div id="optionsBodyNotice1Text">
                                     <h3 id="optionsBodyNoticeFreeTitle">
                                         Everything is free!<br />
@@ -54,7 +54,7 @@ const Options = () => (
                                 </div>
                             </div>
                             <div id="optionsBodyNoticeNotFinished">
-                                <h4 id="optinosBodyNotice2"><strong>Note 2:</strong></h4>
+                                <h4 id="optionsBodyNotice2"><strong>Note 2:</strong></h4>
                                 <div id="optionsBodyNotice2Text">
                                     <h3 id="optionsBodyNoticeNotFinishedTitle">
                                         Not everything is working as of 04/30/2020

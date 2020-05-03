@@ -145,7 +145,7 @@
     padding: 0% 2% 2%;
 }
 
-#optinosBodyNotice1 {
+#optionsBodyNotice1 {
     padding: 0% 2% 0% 0%;
     height: 100%;
     width: 10%;
@@ -175,7 +175,7 @@
     padding: 2% 2%;
 }
 
-#optinosBodyNotice2 {
+#optionsBodyNotice2 {
     padding: 0% 2% 0% 0%;
     height: 100%;
     width: 10%;
@@ -260,7 +260,7 @@
         flex-direction: column;
     }
 
-    #optinosBodyNotice1 {
+    #optionsBodyNotice1 {
         text-align: center;
         padding: 0% 2% 0% 0%;
         height: 100%;
@@ -285,7 +285,7 @@
         flex-direction: column;
     }
 
-    #optinosBodyNotice2 {
+    #optionsBodyNotice2 {
         text-align: center;
         padding: 0% 2% 0% 0%;
         height: 100%;
