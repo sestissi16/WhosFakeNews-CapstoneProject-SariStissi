@@ -64,6 +64,13 @@ const NewsAlerts = () => (
                             We will email you when we find something that relates to the words you added and have checked it for fake news.
                         </li>
                     </ol>
+                    <div id="newsAlertsInfoTutorialLink">
+                        <h4 id="newsAlertsInfoTutorialTitle">
+                            For more help, go to the Tutorials section. 
+                            You can get there by clicking the button here or in the navigation bar under Resources.
+                        </h4>
+                        <Button href="/MoreResources/Tutorials" variant="danger" id="newsAlertsTutorialButton">Go to Tutorials</Button>
+                    </div>
                 </div>
                 {/* Have the section below only show up if the user is signed in, have a different div made in the future that explains that they need to sign up to see this */}
                 <div id="newsAlertsSelection">
