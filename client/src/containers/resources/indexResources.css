@@ -33,3 +33,249 @@
     flex-grow: 1;
     width: 100%;
 }
+
+#resourcesBodyDescriptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: fit-content(60%);
+    padding: 2% 0% 0%;
+}
+
+#resourcesBodyDescriptionsTitle {
+    padding: 1% 1.5%;
+}
+
+#resourcesBodyDescriptionsInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: fit-content(60%);
+    padding: 2% 0% 0%;
+}
+
+#resourcesBodyDescriptInfoFaq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    margin: 0% 2% 0% 2%;
+    padding: 2%;
+    background-color: #35536D;
+    color: #FFFBFC;
+    border-right: solid 0.4em #A9CEF4;
+}
+
+#resourcesBodyDescriptInfoTutorials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    margin: 0% 2% 0% 0.5%;
+    padding: 2%;
+    background-color: #6D3D47;
+    color: #FFFBFC;
+    border-right: solid 0.4em #A9CEF4;
+}
+
+#resourcesBodyDescriptInfoFeedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    margin: 0% 2% 0% 0.5%;
+    padding: 2%;
+    background-color: #70292F;
+    color: #FFFBFC;
+    border-right: solid 0.4em #A9CEF4;
+}
+
+#resourcesBodyDescriptInfoMoreResources {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    margin: 0% 2% 0% 2%;
+    padding: 2%;
+    background-color: #35536D;
+    color: #FFFBFC;
+    border-right: solid 0.4em #A9CEF4;
+}
+
+#resourcesBodyInfoFaqTitle, #resourcesBodyInfoTutorialsTitle, #resourcesBodyInfoFeedbackTitle, #resourcesBodyInfoMoreResourcesTitle {
+    padding: 3%;
+    min-width: fit-content(60%);
+    border-top: solid 0.2em #A9CEF4;
+    border-left: solid 0.17em #A9CEF4;
+    border-right: solid 0.17em #A9CEF4;
+    border-radius: 15%;
+}
+
+.resourcesBodyDescriptInfoText {
+    padding: 1% 0%;
+}
+
+#resourcesBodyDescriptionsNotice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content(60%);
+    margin: 2% 0% 0%;
+    padding: 2%;
+    background-color: #0B2F4F;
+    color: #FFFBFC;
+}
+
+#resourcesBodyNoticeNotFinished {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: fit-content(100%);
+    padding: 2% 2%;
+}
+
+#resourcesBodyNotice1 {
+    padding: 0% 2% 0% 0%;
+    height: 100%;
+    width: 10%;
+}
+
+#resourcesBodyNotice1Text {
+    border-left: solid 0.4em #FFAED5;
+    padding: 0% 0% 0% 2%;
+    width: 90%;
+    height: 100%;
+}
+
+#resourcesBodyNoticeNotFinishedTitle {
+    text-align: left;
+    padding: 0% 0% 0.5% 0%;
+    border-bottom: solid 0.05em #FFAED5;
+}
+
+.resourcesBodyNoticeText {
+    padding: 1.5% 2% 1%;
+    font-size: 1.2em;
+    background-color: #CFEAED;
+    color: black;
+}
+
+@media (max-width:445px) {
+    /* Changes for Mobile view */
+}
+
+@media (max-width:768px) {
+    /* Changes for Tablet view */
+    #resourcesBodyDescriptionsInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height: fit-content(60%);
+        padding: 2% 0% 0%;
+    }
+
+    #resourcesBodyDescriptInfoFaq {
+        width: 90%;
+        height: 100%;
+        margin: 0.5% 0% 2% 0%;
+        padding: 2%;
+        border-bottom: solid 0.4em #A9CEF4;
+        border-right: solid 0.4em #A9CEF4;
+        border-left: solid 0.4em #A9CEF4;
+    }
+    
+    #resourcesBodyDescriptInfoTutorials {
+        width: 90%;
+        height: 100%;
+        margin: 0.5% 0% 2% 0%;
+        padding: 2%;
+        border-bottom: solid 0.4em #A9CEF4;
+        border-right: solid 0.4em #A9CEF4;
+        border-left: solid 0.4em #A9CEF4;
+    }
+    
+    #resourcesBodyDescriptInfoFeedback {
+        width: 90%;
+        height: 100%;
+        margin: 0.5% 0% 2% 0%;
+        padding: 2%;
+        border-bottom: solid 0.4em #A9CEF4;
+        border-right: solid 0.4em #A9CEF4;
+        border-left: solid 0.4em #A9CEF4;
+    }
+
+    #resourcesBodyDescriptInfoMoreResources {
+        width: 90%;
+        height: 100%;
+        margin: 0.5% 0% 2% 0%;
+        padding: 2%;
+        border-bottom: solid 0.4em #A9CEF4;
+        border-right: solid 0.4em #A9CEF4;
+        border-left: solid 0.4em #A9CEF4;
+    }
+
+    #resourcesBodyInfoFaqTitle, #resourcesBodyInfoTutorialsTitle, #resourcesBodyInfoFeedbackTitle, #resourcesBodyInfoMoreResourcesTitle {
+        padding: 2%;
+    }
+
+    .resourcesBodyDescriptInfoText {
+        padding: 1% 1.5%;
+    }
+
+    #resourcesBodyNoticeNotFinished {
+        flex-direction: column;
+    }
+
+    #resourcesBodyNotice1 {
+        text-align: center;
+        padding: 0% 2% 0% 0%;
+        height: 100%;
+        width: 100%;
+    }
+
+    #resourcesBodyNotice1Text {
+        border-top: solid 0.4em #49111C;
+        border-left: none;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+    }
+
+    #resourcesBodyNoticeNotFinishedTitle {
+        text-align: left;
+        padding: 1% 1.2% 0.5%;
+        border-bottom: solid 0.05em #49111C;
+    }
+    
+}
+
+@media (max-width:1023px) {
+    /* Changes for Laptop view */
+}
