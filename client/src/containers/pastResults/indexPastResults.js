@@ -6,14 +6,12 @@ const PastResults = () => (
     <div id="pastResultsPageContainer">
         <div id="pastResultsContent">
             <div id="pastResultsHeader">
-                <h6 id="pastResultsHeaderMessage"><strong><em>Past Results Page</em></strong></h6>
+                <h3 id="pastResultsHeaderMessage"><strong><em>Look at and search through the results of past fake news checks</em></strong></h3>
             </div>
             <div id="pastResultsBody">
-                <div id="pastResultsLeftSideBar"></div>
                 <div id="pastResultsBodyContent">
                     <p>Content for Past Results Page</p>
                 </div>
-                <div id="pastResultsRightSideBar"></div>
             </div>
         </div>
     </div>

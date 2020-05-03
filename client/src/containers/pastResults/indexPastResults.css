@@ -17,7 +17,7 @@
     justify-content: center;
     width: 100%;
     padding: 2% 1%;
-    background-color: rgb(220, 161, 255);
+    background-color: #BAA7B0;
 }
 
 #pastResultsBody {
@@ -32,36 +32,4 @@
     flex-direction: column;
     flex-grow: 1;
     width: 100%;
-}
-
-#pastResultsLeftSideBar, #pastResultsRightSideBar {
-    width: 8%;
-    background-color: rgb(155, 43, 149);
-    height: 100%;
-}
-
-@media (max-width:544px){
-    #pastResultsLeftSideBar, #pastResultsRightSideBar {
-        display: none;
-    }
-}
-
-@media (max-width:830px){
-    #pastResultsRightSideBar {
-        display: none;
-    }
-
-    #pastResultsLeftSideBar {
-        width: 7%;
-    }
-}
-
-@media (max-width:715px){
-    #pastResultsRightSideBar {
-        display: none;
-    }
-
-    #pastResultsLeftSideBar {
-        width: 4.5%;
-    }
 }
