@@ -1,6 +1,6 @@
 #pastResultsPageContainer{
     display: flex;
-    height: 100%;
+    min-height: fit-content(100%);
 }
 
 #pastResultsContent {
@@ -32,4 +32,324 @@
     flex-direction: column;
     flex-grow: 1;
     width: 100%;
+}
+
+#pastResultsSelection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content(100%);
+    background-color: #DCBCCB;
+    padding: 1%;
+}
+
+#pastResultsSelectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: fit-content(100%);
+    border: solid 0.3em #5E1A30;
+}
+
+#pastResultsFilterAndSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content(100%);
+    background-color: #E8E3FF;
+    border-bottom: solid 0.1em #5E1A30;
+
+}
+
+#pastResultssearchGroup {
+    margin: 0.5%;
+}
+
+#pastResultsfilterGroup {
+    margin: 0.5%;
+}
+
+#pastResultsView {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+#pastResultsViewFilters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 20%;
+    min-height: fit-content(100%);
+    padding: 1% 1%;
+    background-color: #E8E3FF;
+    border-right: solid 0.1em #5E1A30;
+}
+
+#pastResultsVeiwFiltersTitle {
+    text-align: left;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    width: 98%;
+    border-bottom: solid 0.04em #5E1A30;
+}
+
+#pastResultsViewActiveFilters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25em;
+}
+
+#pastResultsFilterChipsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    overflow: auto;
+}
+
+.pastResultsFilterStyling {
+    margin: 3% 2% 2%;
+}
+
+#viewFiltersButtonGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: flex-end;
+    width: 100%;
+    height: fit-content(10%);
+    /* margin-top: 20%; */
+}
+
+#pastResultsFiltersClear {
+    padding: 1.2%;
+    width: 70%;
+}
+
+
+#pastResultsViewCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    height:30em;
+    background-color: #E8E3FF;
+    overflow: auto;
+    padding: 1% 1% 0%;
+}
+
+.viewPastResultsDisplayCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content(100%);
+    padding: 0.4%;
+    border-bottom: solid 0.1em #5E1A30;
+}
+
+.displayCardTopRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: fit-content(50%);
+    padding: 1% 0%;
+    border-bottom: dotted 0.05em #76232A;
+}
+
+.displayCardTitle {
+    text-align: left;
+    border-right: solid 0.03em #5E1A30;
+    padding: 1%;
+    width: 50%;
+    height: fit-content(100%);
+}
+
+.displayCardResult {
+    text-align: left;
+    border-right: solid 0.03em #5E1A30;
+    padding: 1%;
+    width: 30%;
+    height: fit-content(100%);
+}
+
+.displayCardDate {
+    text-align: left;
+    border-right: solid 0.03em #5E1A30;
+    padding: 1%;
+    width: 20%;
+    height: fit-content(100%);
+}
+
+.displayCardBottomRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content(50%);
+}
+
+.displayCardDetails {
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+}
+
+@media (max-width:445px) {
+    /* Changes for Mobile view */
+}
+
+@media (max-width:768px) {
+    /* Changes for Tablet view */
+    #pastResultsFilterAndSearch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content(100%);
+        background-color: #E8E3FF;
+        border-bottom: solid 0.1em #5E1A30;
+    
+    }
+
+    #pastResultssearchGroup {
+        margin: 0.5%;
+        width: 97%;
+    }
+    
+    #pastResultsfilterGroup {
+        margin: 0.5%;
+        width: 97%;
+    }
+
+    #pastResultsView {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    #pastResultsViewFilters {
+        width: 100%;
+        background-color: #E8E3FF;
+        border-bottom: solid 0.1em #5E1A30;
+        border-right: none;
+    }
+
+    #pastResultsViewActiveFilters {
+        width: 100%;
+        height: 5em;
+    }
+
+    #pastResultsFilterChipsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .pastResultsFilterStyling {
+        margin: 1% 2%;
+    }
+    
+    #viewFiltersButtonGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content(10%);
+        /* margin: 0%; */
+    }
+
+    #pastResultsViewCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height:30em;
+        background-color: #E8E3FF;
+        overflow: auto;
+        padding: 1% 1% 0%;
+    }
+
+    .displayCardTopRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height: fit-content(50%);
+        padding: 1% 0%;
+        border-bottom: dotted 0.05em #76232A;
+    }
+
+    .displayCardResult {
+        text-align: left;
+        border-right: solid 0.03em #5E1A30;
+        padding: 1%;
+        width: 20%;
+        height: fit-content(100%);
+    }
+    
+    .displayCardDate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        border-right: solid 0.03em #5E1A30;
+        padding: 1%;
+        width: 30%;
+        height: fit-content(100%);
+    }
+}
+
+@media (max-width:1023px) {
+    /* Changes for Laptop view */
 }
