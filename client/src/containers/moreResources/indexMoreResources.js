@@ -9,11 +9,9 @@ const MoreResources = () => (
                 <h6 id="moreResourcesHeaderMessage"><strong><em>More Resources Page</em></strong></h6>
             </div>
             <div id="moreResourcesBody">
-                <div id="moreResourcesLeftSideBar"></div>
                 <div id="moreResourcesBodyContent">
                     <p>Content for More Resources Page</p>
                 </div>
-                <div id="moreResourcesRightSideBar"></div>
             </div>
         </div>
     </div>

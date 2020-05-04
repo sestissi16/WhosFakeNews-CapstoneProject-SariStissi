@@ -33,35 +33,3 @@
     flex-grow: 1;
     width: 100%;
 }
-
-#moreResourcesLeftSideBar, #moreResourcesRightSideBar {
-    width: 8%;
-    background-color: rgb(155, 43, 80);
-    height: 100%;
-}
-
-@media (max-width:544px){
-    #moreResourcesLeftSideBar, #moreResourcesRightSideBar {
-        display: none;
-    }
-}
-
-@media (max-width:830px){
-    #moreResourcesRightSideBar {
-        display: none;
-    }
-
-    #moreResourcesLeftSideBar {
-        width: 7%;
-    }
-}
-
-@media (max-width:715px){
-    #moreResourcesRightSideBar {
-        display: none;
-    }
-
-    #moreResourcesLeftSideBar {
-        width: 4.5%;
-    }
-}
