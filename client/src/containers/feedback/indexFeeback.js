@@ -36,7 +36,7 @@ const Feedback = () => (
                         </div>
                     </div>
                     <div id="feedbackEmailForm">
-                        <h1>Feedback Form</h1>
+                        <h1 id="feedbackEmailFormTitle">Feedback Form</h1>
                         <Form>
                             <Form.Group widths='equal'>
                                 <Form.Field
