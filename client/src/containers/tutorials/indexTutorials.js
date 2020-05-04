@@ -37,7 +37,7 @@ const Tutorials = () => (
                     <div id="tutorialsBodyList">
                         <Item.Group divided>
                             <Item>
-                                <Item.Image src='https://fakeimg.pl/400/3E5C76/fff/?text=Placeholder' />
+                                <Item.Image src='https://fakeimg.pl/400/3E5C76/fff/?text=Placeholder' alt="placeholder image that says placeholder"/>
 
                                 <Item.Content>
                                     <Item.Header as='a'>How to setup News Alerts</Item.Header>
@@ -59,7 +59,7 @@ const Tutorials = () => (
                             </Item>
 
                             <Item>
-                                <Item.Image src='https://fakeimg.pl/400/3E5C76/fff/?text=Placeholder' />
+                                <Item.Image src='https://fakeimg.pl/400/3E5C76/fff/?text=Placeholder' alt="placeholder image that says placeholder"/>
 
                                 <Item.Content>
                                     <Item.Header as='a'>How does the Extension Work</Item.Header>
@@ -81,7 +81,7 @@ const Tutorials = () => (
                             </Item>
 
                             <Item>
-                                <Item.Image src='https://fakeimg.pl/400/3E5C76/fff/?text=Placeholder' />
+                                <Item.Image src='https://fakeimg.pl/400/3E5C76/fff/?text=Placeholder' alt="placeholder image that says placeholder" />
 
                                 <Item.Content>
                                     <Item.Header as='a'>How can you search and filter through lists</Item.Header>
