@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+  .background-image-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .background-image-text  {
+    width: 500px;
+  }
+}
+
+.background-image-text hr {
+  border: 1px solid white;
+  max-width: 100px;
+  margin-left: 0;
+}
+
+.background-image-text p {
+  line-height: 2rem;
+}
