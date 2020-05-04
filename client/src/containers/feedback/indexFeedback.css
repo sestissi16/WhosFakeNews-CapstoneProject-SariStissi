@@ -33,3 +33,9 @@
     flex-grow: 1;
     width: 100%;
 }
+
+#feedbackEmailForm {
+    width: 100%;
+    height: fit-content;
+    padding: 5%;
+}
