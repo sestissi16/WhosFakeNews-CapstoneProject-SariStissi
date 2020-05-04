@@ -47,3 +47,27 @@
     align-content: center;
     align-items: center;
 }
+
+#moreResourcesRecommendations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 2%;
+    background-color: #98BADF;
+}
+
+#moreResourcesRecommenationsTitle {
+    margin: 0% 0% 2%;
+    padding: 1%;
+    border-top: solid 0.2em #49111C;
+    border-right: solid 0.2em #49111C;
+    border-left: solid 0.2em #49111C;
+    border-radius: 15%;
+}
+
+#moreResourcesRecommendationContent {
+    text-align: center;
+}

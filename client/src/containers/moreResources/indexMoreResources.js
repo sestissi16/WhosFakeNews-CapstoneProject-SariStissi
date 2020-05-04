@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon, Image, Item, Label } from 'semantic-ui-react'
+import { Button } from 'react-bootstrap'
 import PolitifactLogo from '../../Media/politifact-TruthOMeter-Logo.jpg'
 import SnopesLogo from '../../Media/snopes-Logo-HomepageScreenshot.png'
 import './indexMoreResources.css'
@@ -73,7 +74,16 @@ const MoreResources = () => (
                         </Item.Group>
                     </div>
                     <div id="moreResourcesRecommendations">
-
+                        <div id="moreResourcesRecommenationsTitle">
+                            <h2>Do you know of a Fake News finding resource?</h2>
+                        </div>
+                        <div id="moreResourcesRecommendationContent">
+                            <p>
+                                Go to the <Button href="/Resources/Feedback" variant="danger">Feedback Page</Button> and 
+                                write "Fake News Resource" in the subject line and let us know what you found.
+                                <br/>We will check it out and add it if we think it's a good fit.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
