@@ -33,35 +33,3 @@
     flex-grow: 1;
     width: 100%;
 }
-
-#tutorialsLeftSideBar, #tutorialsRightSideBar {
-    width: 8%;
-    background-color: rgb(114, 248, 96);
-    height: 100%;
-}
-
-@media (max-width:544px){
-    #tutorialsLeftSideBar, #tutorialsRightSideBar {
-        display: none;
-    }
-}
-
-@media (max-width:830px){
-    #tutorialsRightSideBar {
-        display: none;
-    }
-
-    #tutorialsLeftSideBar {
-        width: 7%;
-    }
-}
-
-@media (max-width:715px){
-    #tutorialsRightSideBar {
-        display: none;
-    }
-
-    #tutorialsLeftSideBar {
-        width: 4.5%;
-    }
-}
