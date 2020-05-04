@@ -34,6 +34,34 @@
     width: 100%;
 }
 
+#feedbackInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 3%;
+    background-color: #CFEAED;
+}
+
+#feedbackInfoText {
+    height: fit-content;
+    width: 100%;
+}
+
+#feedbackInfoListItem {
+    border-bottom: solid 0.05em #76232A;
+    padding: 2% 0%;
+    font-size: 1.2em;
+    width: 90%;
+}
+
+#feedbackInfoNote {
+    text-align: center;
+    padding: 1%;
+}
+
 #feedbackEmailFormTitle {
     padding: 1%;
     margin: 0% 0% 2%;

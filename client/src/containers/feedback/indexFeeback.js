@@ -33,6 +33,12 @@ const Feedback = () => (
                                     Having a resource that you want to share
                                 </li>
                             </ul>
+                            <div id="feedbackInfoNote">
+                                <h5>
+                                    Write what you want to talk about in the Subject Line below!<br/> 
+                                    Then tell us more about it in the Email Body section!
+                                </h5>
+                            </div>
                         </div>
                     </div>
                     <div id="feedbackEmailForm">
