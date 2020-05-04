@@ -9,7 +9,9 @@ const MoreResources = () => (
     <div id="moreResourcesPageContainer">
         <div id="moreResourcesContent">
             <div id="moreResourcesHeader">
-                <h6 id="moreResourcesHeaderMessage"><strong><em>More Resources Page</em></strong></h6>
+                <h3 id="moreResourcesHeaderMessage"><strong><em>
+                    Here we'll link you to other people who are also trying to stop fake news!
+                </em></strong></h3>
             </div>
             <div id="moreResourcesBody">
                 <div id="moreResourcesBodyContent">
@@ -69,6 +71,9 @@ const MoreResources = () => (
                             </Item>
 
                         </Item.Group>
+                    </div>
+                    <div id="moreResourcesRecommendations">
+
                     </div>
                 </div>
             </div>
