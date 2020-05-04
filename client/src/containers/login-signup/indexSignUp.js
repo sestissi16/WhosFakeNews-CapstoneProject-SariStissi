@@ -5,7 +5,6 @@ import './indexSignUp.css'
 
 const SignUp = () => (
     <div id="signUpPageContainer">
-        <div id="signUpLeftSideBar"></div>
         <div id="signUpContent">
             <div id="signUpHeader">
                 <h2>Get started finding fake news</h2>
@@ -50,7 +49,6 @@ const SignUp = () => (
                 </div>
             </div>
         </div>
-        <div id="signUpRightSideBar"></div>
     </div>
 )
 
