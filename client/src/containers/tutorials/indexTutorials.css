@@ -45,6 +45,42 @@
     align-items: center;
     width: 100%;
     padding: 2%;
+    background-color: #E8E3FF;
+    border-bottom: #49111C 0.04em solid;
+}
+
+#tutorialsViewActiveFilters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 1% 1% 2%;
+    border-bottom: #49111C solid 0.08em;
+    margin: 0% 0% 2%;
+    background-color: #E8E3FF;
+}
+
+#tutorialsVeiwFiltersTitle {
+    padding: 0% 2%;
+    width: 20%;
+    border-right: solid 0.06em #49111C;
+}
+
+#tutorialsFilterChipsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    overflow: auto;
+    padding: 0% 2%;
+}
+
+.tutorialsFilterStyling {
+    margin: 1% 2%;
 }
 
 #tutorialsBodyList {
@@ -57,35 +93,4 @@
 .tutorial {
     color: #49111C;
     font-weight: bold;
-}
-
-#tutorialsViewActiveFilters {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    padding: 1%;
-}
-
-#tutorialsVeiwFiltersTitle {
-    padding: 0% 2%;
-    width: 20%;
-    border-right: solid 0.08em #49111C;
-}
-
-#tutorialsFilterChipsContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-    width: 80%;
-    overflow: auto;
-    padding: 0% 2%
-}
-
-.tutorialsFilterStyling {
-    margin: 1% 2%;
 }
