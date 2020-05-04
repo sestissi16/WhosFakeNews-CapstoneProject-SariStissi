@@ -11,7 +11,32 @@ const Feedback = () => (
             </div>
             <div id="feedbackBody">
                 <div id="feedbackBodyContent">
+                    <div id="feedbackInfo">
+                        <div id="feedbackInfoTitle">
+                            <h2>Some examples of what you can contact us about:</h2>
+                        </div>
+                        <div id="feedbackInfoText">
+                            <ul>
+                                <li id="feedbackInfoListItem">
+                                    Wanting to help with the project
+                                </li>
+                                <li id="feedbackInfoListItem">
+                                    Having a question about the project or how something works
+                                </li>
+                                <li id="feedbackInfoListItem">
+                                    Finding an issue with the website or extension
+                                </li>
+                                <li id="feedbackInfoListItem">
+                                    Having a suggestion about what to change or add
+                                </li>
+                                <li id="feedbackInfoListItem">
+                                    Having a resource that you want to share
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <div id="feedbackEmailForm">
+                        <h1>Feedback Form</h1>
                         <Form>
                             <Form.Group widths='equal'>
                                 <Form.Field
