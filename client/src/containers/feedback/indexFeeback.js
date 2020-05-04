@@ -54,6 +54,7 @@ const Feedback = () => (
                                 control={Button}
                                 content='Send'
                                 label='Send Form'
+                                color='red'
                             />
                         </Form>
                     </div>
