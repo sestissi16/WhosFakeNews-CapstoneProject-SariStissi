@@ -5,7 +5,6 @@ import './indexLogin.css'
 
 const Login = () => (
     <div id="loginPageContainer">
-        <div id="loginLeftSideBar"></div>
         <div id="loginContent">
             <div id="loginHeader">
                 <h2>Pick up where you left off</h2>
@@ -43,7 +42,6 @@ const Login = () => (
                 </div>
             </div>
         </div>
-        <div id="loginRightSideBar"></div>
     </div>
 )
 
