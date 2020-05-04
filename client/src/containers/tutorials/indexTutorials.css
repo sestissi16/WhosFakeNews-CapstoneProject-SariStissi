@@ -1,6 +1,6 @@
 #tutorialsPageContainer{
     display: flex;
-    height: 100%;
+    min-height: fit-content(100%);
 }
 
 #tutorialsContent {
@@ -17,7 +17,7 @@
     justify-content: center;
     width: 100%;
     padding: 2% 1%;
-    background-color: rgb(188, 255, 161);
+    background-color: #E0868E;
 }
 
 #tutorialsBody {
@@ -30,6 +30,26 @@
 #tutorialsBodyContent {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
     flex-grow: 1;
     width: 100%;
+}
+
+#tutorialsBodyFilterBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+}
+
+#tutorialsBodyList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2%;
 }
