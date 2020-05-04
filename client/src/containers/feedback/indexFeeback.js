@@ -7,7 +7,7 @@ const Feedback = () => (
     <div id="feedbackPageContainer">
         <div id="feedbackContent">
             <div id="feedbackHeader">
-                <h6 id="feedbackHeaderMessage"><strong><em>Feedback Page</em></strong></h6>
+                <h3 id="feedbackHeaderMessage"><strong><em>Give us feedback and contact us!</em></strong></h3>
             </div>
             <div id="feedbackBody">
                 <div id="feedbackBodyContent">
