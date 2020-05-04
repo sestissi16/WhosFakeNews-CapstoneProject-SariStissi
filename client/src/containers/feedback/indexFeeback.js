@@ -9,11 +9,9 @@ const Feedback = () => (
                 <h6 id="feedbackHeaderMessage"><strong><em>Feedback Page</em></strong></h6>
             </div>
             <div id="feedbackBody">
-                <div id="feedbackLeftSideBar"></div>
                 <div id="feedbackBodyContent">
                     <p>Content for Feedback</p>
                 </div>
-                <div id="feedbackRightSideBar"></div>
             </div>
         </div>
     </div>

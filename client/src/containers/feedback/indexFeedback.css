@@ -33,35 +33,3 @@
     flex-grow: 1;
     width: 100%;
 }
-
-#feedbackLeftSideBar, #feedbackRightSideBar {
-    width: 8%;
-    background-color: rgb(86, 43, 155);
-    height: 100%;
-}
-
-@media (max-width:544px){
-    #feedbackLeftSideBar, #feedbackRightSideBar {
-        display: none;
-    }
-}
-
-@media (max-width:830px){
-    #feedbackRightSideBar {
-        display: none;
-    }
-
-    #feedbackLeftSideBar {
-        width: 7%;
-    }
-}
-
-@media (max-width:715px){
-    #feedbackRightSideBar {
-        display: none;
-    }
-
-    #feedbackLeftSideBar {
-        width: 4.5%;
-    }
-}
