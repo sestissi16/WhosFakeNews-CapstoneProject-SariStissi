@@ -32,10 +32,10 @@ const LoginForm = ({
         )}
         <div className="text-center">
           {heading && (
-            <h4 style={{ color: headingColor }}>{heading}</h4>
+            <h2 style={{ color: headingColor, padding: '0% 0% 2%' }}>{heading}</h2>
           )}
           {subheading && (
-            <p style={{ color: subheadingColor }}>
+            <p style={{ color: subheadingColor, fontSize: '1.4em' }}>
               {subheading}
             </p>
           )}
@@ -48,7 +48,7 @@ const LoginForm = ({
               type="email"
               className="form-control form-control-sm"
               id="emailInput"
-              aria-describedby="emailHelp"
+              // aria-describedby="emailHelp"
               required
             />
             <div className="invalid-feedback">
@@ -80,10 +80,10 @@ const LoginForm = ({
               Remember me
             </label>
           </div>
-          <button type="submit" className="btn btn-primary btn-block btn-sm">Log In</button>
+          <button type="submit" className="btn btn-danger btn-block btn-sm">Log In</button>
           <div className="d-flex justify-content-between mt-4">
-            <button type="button" className="btn btn-link btn-sm p-0">Create new account</button>
-            <button type="button" className="btn btn-link btn-sm p-0">Forgot password?</button>
+            <button type="button" className="btn btn-link btn-sm p-0" id="creatNewAccountButton">Create new account</button>
+            <button type="button" className="btn btn-link btn-sm p-0" id="forgotPasswordButton">Forgot password?</button>
           </div>
         </form>
       </div>

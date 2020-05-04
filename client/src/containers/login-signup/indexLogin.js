@@ -1,46 +1,18 @@
 import React from 'react'
-import { Form, InputGroup, Button, Col } from 'react-bootstrap'
-import { Divider } from 'semantic-ui-react'
+import LoginForm from '../starter-kits/LoginForm/LoginForm';
+import Logo from  '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-120x120.png';
 import './indexLogin.css'
 
 const Login = () => (
     <div id="loginPageContainer">
         <div id="loginContent">
-            <div id="loginHeader">
-                <h2>Pick up where you left off</h2>
-            </div>
-            <div id="loginBody">
-                <div id="loginSection">
-                    <h3>Login</h3>
-                    <Form id="loginForm">
-                        <Form.Group controlId="formGroupEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
-                        </Form.Group>
-                        <Form.Label>OR</Form.Label>
-                        <Form.Group controlId="groupCustomUsername">
-                            <Form.Label>Username</Form.Label>
-                            <InputGroup>
-                                <InputGroup.Prepend>
-                                <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-                                </InputGroup.Prepend>
-                                <Form.Control
-                                type="text"
-                                placeholder="Username"
-                                aria-describedby="inputGroupPrepend"
-                                required
-                                />
-                            </InputGroup>
-                        </Form.Group>
-                        <Divider />
-                        <Form.Group controlId="formGroupPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" />
-                        </Form.Group>
-                        <Button type="submit">Login</Button>
-                    </Form>
-                </div>
-            </div>
+            <LoginForm 
+                backgroundColor="#49111C"
+                heading="Welcome back to the Who's Fake News Project!"
+                headingColor="white"
+                subheadingColor="white"
+                subheading="Enter your email and password and we'll get you signed in."
+            />
         </div>
     </div>
 )
