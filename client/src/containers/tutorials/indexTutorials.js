@@ -1,8 +1,38 @@
 import React from 'react'
 import { Icon, Image, Item, Label } from 'semantic-ui-react'
 import { Form, InputGroup, Button, ButtonGroup, DropdownButton, FormControl, Dropdown } from 'react-bootstrap'
+import Chip from '@material-ui/core/Chip';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
 import './indexTutorials.css'
 
+//to be able to choose the colors for the filter and keyword chips
+const theme = createMuiTheme({
+    palette: {
+      primary: {
+        // light: will be calculated from palette.primary.main,
+        main: '#E0A0AD',
+        // dark: will be calculated from palette.primary.main,
+        contrastText: '#000000',
+      },
+      secondary: {
+        main: '#B3B4BD',
+        // dark: will be calculated from palette.secondary.main,
+        contrastText: '#000000',
+      },
+      // Used by `getContrastText()` to maximize the contrast between
+      // the background and the text.
+      contrastThreshold: 3,
+      // Used by the functions below to shift a color's luminance by approximately
+      // two indexes within its tonal palette.
+      // E.g., shift from Red 500 to Red 300 or Red 700.
+      tonalOffset: 0.2,
+    },
+});
+
+const handleDelete = () => {
+    console.log('delete this later')
+};
 
 const Tutorials = () => (
     <div id="tutorialsPageContainer">
@@ -33,6 +63,46 @@ const Tutorials = () => (
                                 <Button variant="danger">Filter</Button>
                             </InputGroup.Append>
                         </InputGroup>
+                    </div>
+                    <div id="tutorialsViewActiveFilters">
+                        <div id="tutorialsVeiwFiltersTitle">
+                            <h6>Filters In Use:</h6>
+                        </div>
+                        <div id="tutorialsFilterChipsContainer">
+                            <div class="tutorialsFilterStyling">
+                                <ThemeProvider theme={theme}>
+                                    <Chip
+                                        label="Ex: Topic: news alerts"
+                                        clickable
+                                        onDelete={handleDelete}
+                                        color="secondary"
+                                        // deleteIcon={<CloseIcon />}
+                                    />
+                                </ThemeProvider>
+                            </div>
+                            <div class="tutorialsFilterStyling">
+                                <ThemeProvider theme={theme}>
+                                    <Chip
+                                        label="Ex: Topic: extension"
+                                        clickable
+                                        onDelete={handleDelete}
+                                        color="secondary"
+                                        // deleteIcon={<CloseIcon />}
+                                    />
+                                </ThemeProvider>
+                            </div>
+                            <div class="tutorialsFilterStyling">
+                                <ThemeProvider theme={theme}>
+                                    <Chip
+                                        label="Ex: Title: search"
+                                        clickable
+                                        onDelete={handleDelete}
+                                        color="secondary"
+                                        // deleteIcon={<CloseIcon />}
+                                    />
+                                </ThemeProvider>
+                            </div>
+                        </div> 
                     </div>
                     <div id="tutorialsBodyList">
                         <Item.Group divided>
