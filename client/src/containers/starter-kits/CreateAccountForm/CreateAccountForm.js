@@ -5,8 +5,7 @@ const CreateAccountForm = ({
   backgroundColor, heading, subheading, headingColor, subheadingColor, isFlat, image,
 }) => {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [firstName, setFirstName] = useState(undefined);
-  const [lastName, setLastName] = useState(undefined);
+  const [username, setusername] = useState(undefined);
   const [email, setEmail] = useState(undefined);
   const [password, setPassword] = useState(undefined);
   const [isAgreeToTermsAndConditionsChecked, setIsAgreeToTermsAndConditionsChecked] = useState(false);
@@ -45,29 +44,16 @@ const CreateAccountForm = ({
           <div className="form-group">
             <div className="form-row">
               <div className="col">
-                <label htmlFor="firstNameInput">First Name</label>
+                <label htmlFor="usernameInput">Username</label>
                 <input
-                  onChange={(e) => setFirstName(e.target.value)}
+                  onChange={(e) => setusername(e.target.value)}
                   type="text"
                   className="form-control form-control-sm"
-                  id="firstNameInput"
+                  id="usernameInput"
                   required
                 />
                 <div className="invalid-feedback">
                   Enter your first name.
-                </div>
-              </div>
-              <div className="col">
-                <label htmlFor="lastNameInput">Last Name</label>
-                <input
-                  onChange={(e) => setLastName(e.target.value)}
-                  type="text"
-                  className="form-control form-control-sm"
-                  id="lastNameInput"
-                  required
-                />
-                <div className="invalid-feedback">
-                  Enter your last name.
                 </div>
               </div>
             </div>
@@ -129,14 +115,14 @@ const CreateAccountForm = ({
               <label className="form-check-label d-flex align-items-center" htmlFor="agreeToTermsAndConditionsCheckbox">
                 I agree to the
                 {' '}
-                <button type="button" className="btn btn-link p-0 ml-1 btn-small">terms & conditions</button>
+                <button type="button" className="btn btn-link p-0 ml-1 btn-small" style={{color: 'blue'}}>terms & conditions</button>
               </label>
             </div>
           </div>
-          <button type="submit" className="btn btn-primary btn-block btn-sm">Create Account</button>
+          <button type="submit" className="btn btn-danger btn-block btn-sm">Create Account</button>
           <div className="d-flex justify-content-between mt-4">
-            <button type="button" className="btn btn-link btn-sm p-0">&#8592; Log In</button>
-            <button type="button" className="btn btn-link btn-sm p-0">Forgot Password?</button>
+            <button type="button" className="btn btn-link btn-sm p-0" style={{color: 'blue'}}>&#8592; Log In</button>
+            <button type="button" className="btn btn-link btn-sm p-0" style={{color: 'blue'}}>Forgot Password?</button>
           </div>
         </form>
       </div>
