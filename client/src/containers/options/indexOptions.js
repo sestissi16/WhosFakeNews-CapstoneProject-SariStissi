@@ -20,7 +20,7 @@ const Options = () => (
                                 <h5 id="optionsBodyInfoUploadsTitle">Uploads</h5>
                                 <p class="optionsBodyDescriptInfoText">Where you can upload files of photos, pdfs, videos, and more or paste URL links to websites with the news you want to check. 
                                     Then we'll check them for fake news</p>
-                                <Button href="/Options/Uploads" variant="light" id="OptionsUploadButton">Go to Uploads</Button>
+                                <Button href="/Options/Upload" variant="light" id="OptionsUploadButton">Go to Uploads</Button>
                             </div>
                             <div id="optionsBodyDescriptInfoAlerts">
                                 <h5 id="optionsBodyInfoAlertsTitle">News Alerts</h5>
