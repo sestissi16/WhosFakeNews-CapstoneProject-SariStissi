@@ -1,6 +1,5 @@
 import React from 'react'
 import LoginForm from '../starter-kits/LoginForm/LoginForm';
-import Logo from  '../../Media/CS488-capstoneIcon-Circle-WhiteBackground-120x120.png';
 import './indexLogin.css'
 
 const Login = () => (
