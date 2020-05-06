@@ -4,7 +4,7 @@
   "description": "Backend for Who's Fake News Project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
   "homepage": "https://github.com/sestissi16/WhosFakeNewsProject#readme",
   "dependencies": {
     "concurrently": "^5.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
